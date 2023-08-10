@@ -1,0 +1,9 @@
+8
+----------
+7	Alle		Application layer	{ DHCP
+6	Priester	Presentation layer	{
+5	saufen		session			{ 67 Server, 
+4	Tequilla	Transport		TCP/UDP, DHCP UDP, 68 Client
+3	nach		Network			Router, L3-Switch, IP, 
+2	der 		Data-layer		Switch, MAC, 
+1	Predigt		Physical
