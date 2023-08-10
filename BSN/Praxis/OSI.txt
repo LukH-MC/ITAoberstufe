@@ -1,21 +1,21 @@
 Standard Deutsch mit TCP/IP Modell:
 das schicht denkst du dir gefälligst selbst
-7	Alle			Anwendung		|Anwendung
-6	Deutschen		Darstellung		|..
-5	Schüler			Sitzung			|..
-4	Trinken			Transport		|Transport
-3	Verschiedene	Vermittlung		|Netzwerk/Internet
-2	Sorten			Sicherung		|Netzzugang
-1	Bier			Bitübertragung	|..
+7	Alle			    Anwendung		    |Anwendung
+6	Deutschen		  Darstellung		  |..
+5	Schüler			  Sitzung			    |..
+4	Trinken			  Transport		    |Transport
+3	Verschiedene	Vermittlung	  	|Netzwerk/Internet
+2	Sorten			  Sicherung		    |Netzzugang
+1	Bier			    Bitübertragung	|..
 
 
 Englisch auf Deutsch (Sprich Deutsch) mit Beispielen
 8
 ----------
-7	Alle		Application		{ DHCP
-6	Priester	Presentation	{
-5	saufen		session			{ 67 Server, 
-4	Tequilla	Transport		TCP/UDP, DHCP UDP, 68 Client
-3	nach		Network			Router, L3-Switch, IP, 
-2	der 		Data-layer		Switch, MAC, 
-1	Predigt		Physical
+7	Alle		   Application		{ DHCP
+6	Priester	 Presentation 	{
+5	saufen		 session			  { 67 Server, 
+4	Tequilla	 Transport		  TCP/UDP, DHCP UDP, 68 Client
+3	nach		   Network		  	Router, L3-Switch, IP, 
+2	der 		   Data-layer		  Switch, MAC, 
+1	Predigt		 Physical
