@@ -1,5 +1,3 @@
-# ITAoberstufe
+# Bitte Lesen
 
-Finn stinkt
-
-Bitte nicht direkt auf den Master commiten
+Die Commitnachricht sollte das Fach und das Datum beinhalten!
