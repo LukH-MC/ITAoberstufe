@@ -1,0 +1,258 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: midnightblue;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.foreground,
+.background,
+.midground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* =======
+    BACKGROUND
+   ======= */
+
+.background {
+  overflow: hidden;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 200%;
+  opacity: 1;
+  background: radial-gradient(ellipse at top left, rgba(241,41,60,1) 0%, rgba(241,41,60,0) 100%);
+  animation: sunflare 14s ease-in-out infinite;
+}
+
+.city {
+  position: absolute;
+  top: 0;
+  height: 60%;
+  width: 100%;
+}
+
+.house {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(100%);
+  animation-name: rightToLeft;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.house:first-child {
+  background-color: #333;
+  height: 20rem;
+  width: 30rem;
+  animation-duration: 9s;
+}
+
+.house:nth-child(2) {
+  background-color: #292929;
+  height: 25rem;
+  width: 50rem;
+  animation-duration: 7s;
+  animation-delay: 5s;
+}
+
+.house:nth-child(3) {
+  background-color: #222;
+  height: 15rem;
+  width: 35rem;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+/* =======
+    MIDGROUND
+   ======= */
+
+.street {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  background-color: #222;
+}
+
+.stripe {
+  background-color: #333;
+  width: 20vw;
+  height: 2vh;
+  transform: skew(15deg, 0deg);
+}
+
+.stripe-container {
+  display: inline-block;
+  position: absolute;
+  top: 20vh;
+  right: 0;
+  transform: translateX(100%);
+  animation: rightToLeft 1s linear infinite;
+}
+
+.stripe-container:first-child {
+  animation-delay: .33s;
+}
+
+.stripe-container:last-child {
+  animation-delay: .66s;
+}
+
+/* =======
+    FOREGROUND
+   ======= */
+
+.tesla {
+  width: 50vw;
+  min-width: 30rem;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -75%);
+  transition: left cubic-bezier(.2,.38,.14,.71) 1.5s;
+}
+
+.tesla:hover {
+  left: 50%;
+}
+
+.tesla_tire {
+  width: 8vw;
+  min-width: 4.75rem;
+  position: absolute;
+  top: 60%;
+  animation: rotateTires .3s linear infinite, disturbance 2s ease-in-out infinite;
+}
+
+.tire-1 {
+  left: 12.5%;
+  animation-delay: .2s;
+}
+
+.tire-2 {
+  right: 5.5%;
+}
+
+.tesla_headlight {
+  position: absolute;
+  top: 46%;
+  right: 0;
+  height: 6%;
+  width: 5%;
+  border-radius: 25%;
+  z-index: 10;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(12deg);
+  background: #fff;
+  box-shadow: 0 0 40px 5px #9bf, 0 0 2px 2px #b3ccff inset;
+}
+
+.tesla_headlight::after {
+  content: '';
+  position: absolute;
+  top: -2vw;
+  left: 0;
+  height: 2vw;
+  transform: rotate(-5deg);
+  width: 35vw;
+  background: linear-gradient(to right, rgba(153,187,255,1), rgba(153,187,255,0));
+  filter: blur(1vw);
+}
+
+/* =============
+   ANIMATIONS
+   ============= */
+
+@keyframes rotateTires {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes disturbance {
+  0%,
+  65%,
+  75%,
+  100% {
+    top: 60%;
+  }
+
+  70%,
+  80% {
+    top: 62%;
+  }
+}
+
+@keyframes sunflare {
+  0%,
+  100% {
+    opacity: .4;
+    background-position: -50% -50%;
+  }
+
+  25% {
+    opacity: .6;
+    background-position: -30% -30%;
+  }
+
+  45% {
+    opacity: .2;
+    background-position: -35% -35%;
+  }
+
+  65% {
+    opacity: 1;
+    background-position: 0 0;
+  }
+
+  73% {
+    opacity: .6;
+    background-position: -30% -30%;
+  }
+
+  80% {
+    opacity: .8;
+    background-position: -15% -15%;
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    right: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    right: 100vw;
+    transform: translateX(-100%);
+  }
+}

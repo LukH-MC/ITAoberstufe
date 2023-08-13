@@ -1,0 +1,51 @@
+-- Relationen: --
+
+1:  Ein Verkehrsbetrieb beschäftigt einen, keinen oder mehrere Busfahrer.
+    Ein Busfahrer arbeitet bei genau einem Verkehrsbetrieb.
+    
+2:  Ein Verkehrsbetrieb befährt eine, keine oder mehrere Linien.
+    Eine Linie wird von genau einem Verkehrsbetrieb befahren.
+    
+3:  Ein Verkehrsbetrieb besitzt einen, keinen oder mehrere Busse.
+    Ein Bus gehört genau einem Verkehrsbetrieb.
+    
+4:  Ein Busfahrer hat eine, keine oder mehrere Ausbildungen absolviert.
+    Eine Ausbildung wurde von einem, keinem oder mehreren Busfahrern absolviert.
+    
+5:  Ein Busfahrer befährt eine, keine oder mehrere Linien in seiner Schicht.
+    Eine Linie wird von genau einem Busfahrer pro Schicht befahren.
+    
+6:  Ein Bus befährt eine, keine oder mehrere Linien.
+    Eine Linie wird von genau einem Bus befahren.
+    
+    
+    
+=================================================================================
+-- Atribute: --
+
+Verkehrsbetrieb:
+  Vkb_ID (PK)
+  Name
+ 
+Busfahrer:
+  Personalnr. (PK)
+  Name
+  Anfangszeit
+  Endzeit
+  
+ Linie:
+  Linienbezeichnung (PK)
+  Anfangshaltestelle
+  Endhaltestelle
+  Anfangszeit
+  Endzeit
+ 
+ Bus:
+  Fahrzeugnr. (PK)
+  Bustyp
+  Durchfahrshöhe
+  Sitzplätze
+  
+ Ausbildung:
+  Ab_ID (PK)
+  Name

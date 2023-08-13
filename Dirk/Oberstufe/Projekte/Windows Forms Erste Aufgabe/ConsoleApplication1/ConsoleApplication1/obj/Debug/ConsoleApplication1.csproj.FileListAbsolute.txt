@@ -1,0 +1,21 @@
+E:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+H:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+H:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+H:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+H:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+H:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+H:\Schule\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\Schule\06 PRO\Oberstufe\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\Schule\06 PRO\Oberstufe\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\Schule\06 PRO\Oberstufe\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\Schule\06 PRO\Oberstufe\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\Schule\06 PRO\Oberstufe\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\Schule\06 PRO\Oberstufe\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\Schule\06 PRO\Oberstufe\Projekte\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\Schule\06 PRO\Oberstufe\Projekte\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\Schule\06 PRO\Oberstufe\Projekte\Windows Forms Erste Aufgabe\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

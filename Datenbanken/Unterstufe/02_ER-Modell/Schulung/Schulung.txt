@@ -1,0 +1,58 @@
+Attribute:
+
+Termin:
+-Folgende Termine(PK)
+- Uhrzeit
+-Schulung(FK)
+
+Raum:
+-Raumnummer(PK)
+-Bezeichnung
+-Art des Raumes 
+
+Ausbilder:
+-AusbilderID(PK)
+-Name
+-Raumnummer(FK)
+-Spezialgebiet
+
+Azubi:
+-AzubiID(PK)
+-Name
+-Geburtsdadum
+
+Fach:
+-FachID(PK)
+-Thema
+-Schulung(FK)
+
+Schulung:
+-SchulungsID(PK)
+-Uhrzeit
+-Ausbilder
+-Azubis
+-Fach(FK)
+
+
+Relationen:
+
+1a: Ein Azubi kann sich auf einer Teilnahmeliste anmelden.
+1a: Eine Teilnahmeliste kann von einem, keinem oder mehreren Azubis zum anmelden benutzt werden. 
+
+1b: Eine Teilnahmeliste bezieht sich auf eine, keine oder mehrere Schulungen.
+1b: Eine Schulung bezieht sich auf eine Teilnahmeliste
+
+2: Eine Schulung beginnt an einem bestimmten Terminen.
+2: Ein Termin gehört zu einer, keiner oder mehreren Schulungen.
+
+3: Eine Schulung hat immer ein, kein oder mehrere Fächer als Thema.
+3: Ein Fach kann in einer Schulungen stattfinden.
+
+4: Eine oder keine Schulung findet immer in einem, keinem oder mehreren Räumen statt.
+4: Ein Raum kann von einer Schulung besetzt werden.
+
+5: Ein Raum wird immer von einem/ner Ausbilder/in betreut.
+5: Ein/e Ausbilder/in betreut immer einen Raum.
+
+6: Ein/e oder kein/e Ausbilder/in kann eine Schulung führen.
+6: Eine oder keine Schulung wird von einem/ner, keinem/er oder mehreren Ausbildern/innen geführt.  

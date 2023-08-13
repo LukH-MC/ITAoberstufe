@@ -1,0 +1,36 @@
+HTML 
+
+Bilder:
+
+<img src="bild.jpg" width="50%" alt="Logo" title="Logo" />
+
+----
+
+<i><b>Titelzeile</b></i>
+
+Umlaute und Zeichen:
+
+ä -> &auml;
+Ö -> &Ouml;
+ß -> &szlig;
+> -> &gt;
+< -> &lt;
+
+Links:
+
+<a href="html/meinezweitedatei.html"> Meine zweite Datei </a>
+
+Font:
+(Komplette Website)
+
+<html>
+  ...
+    <body>
+      <font face="Courier">
+      .
+      .
+      .
+      </font>
+    </body>
+  ...
+</html>

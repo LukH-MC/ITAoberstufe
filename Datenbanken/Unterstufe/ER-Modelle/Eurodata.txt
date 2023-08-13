@@ -1,0 +1,50 @@
+Relationen:
+
+1a  Einer, keiner oder mehrere Azubis können an einer, keiner oder mehreren Schulungen teilnehmen.
+1b  Eine, keine oder mehrere Schulungen können von einer, keiner oder mehreren Azubis besucht werden.
+
+2a  Ein Fach wird von mehreren Ausbildern unterrichtet.
+2b  Einer, keiner oder mehrere Ausbilder unterrichten ein Fach.
+
+3a  Ein Fach wird in einer Schulung unterrichtet.
+3b  In einer Schulung wird ein Fach unterrichtet.
+
+4a  Ein Ausbilder unterrichtet in einer Schulung.
+4b  In einer Schulung unterrichtet ein Ausbilder.
+
+5a  Eine Schulung findet in einem Raum statt.
+5b In einem Raum findet eine Schulung statt.
+
+6a  Eine, keine oder mehrere Schulungen findet zu einem Termin statt.
+6b  An einem Termin finden eine, keine oder mehrere Schulungen statt.
+
+7a  Ein Ausbilder ist für einen Raum verantwortlich.
+7b  Einem Raum ist ein Ausbilder zugewiesen.
+
+
+ 
+Attribute:
+
+Raum:
+- Raumnummer (PK)
+- Raumart
+
+Termin:
+-Datum
+-Uhrzeit
+
+Schulung:
+- Schulungs ID (PK)
+
+Azubi:
+-Azubi ID (PK)
+- Name 
+
+Ausbilder:
+- Personalnummer (PK)
+- Name
+
+Fach:
+- Fach ID (PK)
+- Name 
+- Inhalt

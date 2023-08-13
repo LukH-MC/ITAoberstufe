@@ -1,0 +1,57 @@
+Freunde:
+-Personalausweis(PK)
+-Name
+-Vorname
+-Geburtsdatum
+-E-Mail
+-Tel.
+
+Ausleihvrogang:
+-Freunde(FK)
+-DVD(FK)
+-Bemerkung
+-Entleihdatum
+-Rückgabedatum
+-LeihID(PK)
+
+DVD:
+-DVDID(PK)
+-Name
+-FilmID(FK)
+
+Film:
+-Regisseur
+-Länge (in Minuten)
+-FilmID(PK)
+-Sprache
+-GenreID(FK)
+-Titel
+-DVDID(FK)
+
+Schauspieler:
+-SchauspielerID(PK)
+-Name
+-Vorname
+-Geburtsdatum
+-Nationalität
+
+Genre:
+-Genrename
+-GenreID(PK)
+
+Relationen:
+
+1: Ein Freund kann sich über einen, keinen oder mehrere Ausleihvorgänge DVD's ausleihen.
+1: Ein Ausleihvorgang wird von genau einem Freund ausgeführt.
+
+2: Ein Ausleihvorgang muss genau eine DVD beinhalten.
+2: Eine DVD wird über einen, keinen oder mehreren Ausleihvorgang verliehen.
+
+3: Eine DVD beinhaltet immer nur einen Film.
+3: Ein Film ist immer nur auf einer DVD gespeichert.
+
+4: Ein Film gehört zu genau einem Genre.
+4: Ein Genre kann zu kein, ein oder mehreren Filmen.
+
+5: Ein Schauspieler kann in einem, keinem oder mehreren Filmen mitspielen.
+5: Ein Film kann mit einem, keinem oder mehreren Schauspielern besetzt sein.

@@ -1,0 +1,48 @@
+Relationen:
+	1:
+		Ein Verkehrsbetrieb hat keinen, einen, oder mehrere Fahrer.
+		Ein Fahrer gehört zu genau einem Verkehrsbetrieb.
+	2:
+		Ein Verkehrsbetrieb hat keinen, einen, oder mehrere Busse.
+		Ein Bus gehört zu genau einem Verkehrsbetrieb.
+	3:
+		Ein Bus gehört zu keiner, einer, oder mehreren Linien.
+		Eine Linie gehört zu keinen, einen, oder mehreren Bussen.
+	4:
+		Eine Linie kann keinen, einen, oder mehrere Fahrer haben.
+		Ein Fahrer kann keine, eine, oder mehrere Linien haben.
+	5:
+		Ein Verkehrsbetrieb hat eine, keine, oder mehrere Linien.
+		Eine Linie gehört zu genau einem Verkehrsbetrieb.
+	6:
+		Ein Fahrer hat mindestens 2 Ausbildungen.
+		Eine Ausbildung gehört zu genau einem Fahrer.
+
+Attribute:
+	Verkehrsbetrieb:
+		vkb_id (PK)
+      Name
+	Bus:
+		Fahrzeugnummer (PK)
+      Bustyp
+      Baujahr
+      Sitzplätze
+      Höhe
+        vkb_id (FK)
+	Linie:
+		Linienbezeichnung (PK)
+      Anfangshaltestelle
+      Endhaltestelle
+      Startzeit
+      Endzeit
+        vkb_id (FK)
+	Fahrer:
+		Personalnummer (PK)
+      Name
+      Anfangszeit
+      Endzeit
+        vkb_id (FK)
+	Ausbildung:
+		Ab_id (PK)
+      Bezeichnung
+        Personalnummer (FK)

@@ -1,0 +1,33 @@
+
+	body {
+		background-color: #8fbc8f;
+		font-family: arial, sans-serif;
+		color: #22ffff;
+		font-size: 20px;
+		}
+		
+	h1 {
+		color: #550022;
+		font-family: arial, sans-serif;
+		border-bottom: 2px dotted #333333;
+		font-size: 1.2em;
+		}
+	
+	h2 {
+		color: #456581;
+		font-size: 0.8em;
+		font-style: italic;
+		width: 500px;
+		}
+		
+	h3 {
+		color: #550022;
+		font-size: 0.6em;
+		width: 200px;
+		}
+	
+	#meldung {
+		color: #550022;
+		font-family: arial, sans-serif;
+		border-bottom: 2px dotted #333333;
+		}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Structorizer</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>nsd</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Structorizer.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>application-x/structorizer-file</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Nassi-Shniderman Diagram</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSIsAppleDefaultForType</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>Structorizer</string>
+	
+	<key>CFBundleGetInfoString</key>
+	<string>Audacity version 3.21</string>
+	<key>CFBundleIconFile</key>
+	<string>Audacity.icns</string>
+	<key>CFBundleLongVersionString</key>
+	<string>Version 3.21</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.21</string>
+	<key>CFBundleVersion</key>
+	<string>3.21</string>
+
+	<key>CFBundleAllowMixedLocalizations</key>
+	<string>true</string>
+	<key>CFBundleExecutable</key>
+	<string>JavaApplicationStub</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIconFile</key>
+	<string>Structorizer.icns</string>
+	<key>Java</key>
+	<dict>
+		<key>MainClass</key>
+		<string>Structorizer</string>
+		<key>JVMVersion</key>
+		<string>1.5+</string>
+		<key>ClassPath</key>
+			<array>
+			<string>$JAVAROOT/Structorizer.jar</string>
+			<string>$JAVAROOT/lib/bsh-2.0b4.jar</string>
+			<string>$JAVAROOT/lib/freehep-graphics2d-2.1.1.jar</string>
+			<string>$JAVAROOT/lib/freehep-graphicsio-2.1.1.jar</string>
+			<string>$JAVAROOT/lib/freehep-io-2.0.2.jar</string>
+			<string>$JAVAROOT/lib/freehep-swing-2.0.3.jar</string>
+			<string>$JAVAROOT/lib/freehep-util-2.0.2.jar</string>
+			<string>$JAVAROOT/lib/freehep.jar</string>
+			<string>$JAVAROOT/lib/swing-layout-1.0.3.jar</string>
+			<string>$JAVAROOT/lib/AppleJavaExtensions.jar</string>
+			</array>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+		</dict>
+		<key>JVMArchs</key>		<array>		  <string>x86_64</string>	      <string>i386</string>          <string>ppc</string>
+   		</array> 
+	</dict>
+</dict>
+</plist>

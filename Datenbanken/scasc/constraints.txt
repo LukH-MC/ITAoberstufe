@@ -1,0 +1,14 @@
+1.
+ALTER TABLE Kunde
+ADD CONSTRAINT pk_kunden PRIMARY KEY(kundennr)
+;
+
+2.
+ALTER TABLE Bestellung
+ADD CONSTRAINT pk_bestell PRIMARY KEY(bestellnr)
+;
+
+3.
+ALTER TABLE Bestellung 
+ADD CONSTRAINT bestell_kunde_fk FOREIGN KEY (kundennr) REFERENCES Kunde(kundennr)
+;

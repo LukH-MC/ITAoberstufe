@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------- 
+
+Name         Ressource                       Beschreibung
+
+-------------------------------------------------------------------------------
+C$           C:\                             Standardfreigabe                  
+IPC$                                         Remote-IPC                        
+ADMIN$       C:\Windows                      Remoteverwaltung                  
+Chef         c:\Chef                         
+Mitarbeiter  c:\Mitarbeiter                  
+Der Befehl wurde erfolgreich ausgefÅhrt.
+
+
+Benutzerkonten fÅr \\KLAUSURPLATZ11
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Fritz                    
+Gast                     Schueler                 Tim                      
+Walter                   WDAGUtilityAccount       
+Der Befehl wurde erfolgreich ausgefÅhrt.
+

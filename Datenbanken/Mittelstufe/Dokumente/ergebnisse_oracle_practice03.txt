@@ -1,0 +1,34 @@
+--Practice 3
+--1.
+SELECT distinct sysdate AS "Date"
+FROM EMPLOYEES;
+--3.
+SELECT EMPLOYEE_ID, LAST_NAME, SALARY, SALARY*1.155 AS "New Salary"
+FROM EMPLOYEES;
+--4.
+SELECT EMPLOYEE_ID, LAST_NAME, SALARY, SALARY*1.155 AS "New Salary", SALARY*1.155 - Salary AS Increase
+FROM EMPLOYEES;
+--5.a
+SELECT initcap(LAST_NAME) AS name, length(LAST_NAME)
+FROM EMPLOYEES
+WHERE SUBSTR(LAST_NAME, 1, 1) LIKE 'J'
+OR SUBSTR(LAST_NAME, 1, 1) LIKE 'A'
+OR SUBSTR(LAST_NAME, 1, 1) LIKE 'M';
+--5.b
+SELECT initcap(LAST_NAME) AS name, length(LAST_NAME)
+FROM EMPLOYEES
+WHERE SUBSTR(LAST_NAME, 1, 1) LIKE upper('&start_letter');
+--6.
+SELECT last_name, round(months_between (SYSDATE, hire_date)) AS month_worked
+FROM EMPLOYEES;
+--7.
+SELECT last_name, LPAD(salary, 15, '$')
+FROM EMPLOYEES;
+--8.
+SELECT rpad(last_name, 8)||' '|| rpad(' ', salary/1000+1, '*') EMPLOYEES_AND_THEIR_SALARIES 
+FROM employees 
+ORDER BY salary DESC;
+--9.
+SELECT last_name, trunc(months_between(sysdate, hire_date)/7, 0) AS Tenure
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID = 90;

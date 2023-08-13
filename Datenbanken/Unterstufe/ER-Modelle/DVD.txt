@@ -1,0 +1,52 @@
+Relationen:
+
+1. Ein Freund tätigt genau einen Verleih.
+   Ein Verleih wird von genau einem Freund getätigt.
+   
+2. Ein Film wird bei einem Verleih verliehen.
+   Bei einem Verleih werden einer oder mehrere Filme verliehen.
+   
+3. Ein Schauspiler spielt eine oder mehrere Rollen.
+   Eine Rolle wird von einem Schauspieler gespielt.
+   
+ 4. Ein Film gehört zu genau einem Genre.
+    Zu einem Genre gehören mehrere Filme.
+    
+5. In einem Film gibt es mehrere Rollen.
+   Eine Rolle gibt es in einem Film.
+   
+
+Attribute:
+
+Freund:
+  Freund-ID (PK)
+  Name
+  Adresse
+  Mail
+  Tel
+  
+Verleih:
+  Verleih-ID (PK)
+  Ausleihdatum
+  Rückgabedatum
+  
+Film:
+  Film-ID (PK)
+  Name
+  Regisseur
+  Länge
+  Sprache
+  
+Rolle:
+    Rollen-ID (PK)
+    Name
+    
+Schauspieler:
+  Schauspieler-ID (PK)
+  Name
+  Nationalität
+  Geburtsdatum
+  
+Genre:
+  Genre-ID (PK)
+  Name
