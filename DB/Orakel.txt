@@ -1,0 +1,46 @@
+1.
+SELECT last_name AS Mitarbeiter, hire_date AS Einstellungsdatum, department_name AS Abteilung
+FROM employees, departments
+
+2.
+SELECT last_name AS Mitarbeiter, hire_date AS Einstellungsdatum, department_name AS Abteilung
+FROM employees, departments
+WHERE department_name IN ('Marketing', 'Executive', 'Sales')
+
+3.
+SELECT street_address AS Straße, city AS Stadt
+FROM locations
+WHERE city = &city
+
+4.
+SELECT e.last_name AS Mitarbeiter, COALESCE(TO_CHAR(e.manager_id), 'Kein Vorgesetzter') AS "Nr des Vorgesetzten", COALESCE(f.last_name, 'Kein Vorgesetzter') AS Vorgesetzter
+FROM employees e
+JOIN employees f
+ON e.manager_id = f.employee_id
+
+Kommentar: wie umgehe ich das nicht-anzeigen von personen ohne manager
+
+5.
+SELECT d.department_id AS Abteilungsnummer, d.department_name AS Abteilung, SUM(e.salary) AS Gehaltssumme
+FROM departments d
+JOIN employees e
+ON d.department_id = e.department_id
+GROUP BY d.department_id, d.department_name
+
+6.
+SELECT department_id AS Abteilungsnummer, department_name AS Abteilung, location_id AS Ortsnummer
+FROM departments
+WHERE location_id BETWEEN 1800 AND 2500
+
+7.
+SELECT last_name AS Mitarbeiter, salary AS Gehalt
+FROM employees
+WHERE salary >= (SELECT AVG(salary) FROM employees)
+
+8.
+SELECT last_name AS Mitarbeiter, department_id AS Abteilungsnummer
+FROM employees
+MINUS
+SELECT last_name, department_id
+FROM employees
+WHERE department_id >= 50
