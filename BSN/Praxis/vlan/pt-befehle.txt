@@ -1,0 +1,80 @@
+vorbereitung:
+en|enable
+sh|show vlan
+->VLAN 1 hat alle konfigurierten ports
+
+einrichten:
+conf|configure
+->im terminal config modus
+vlan 10
+name VLAN10
+->benennt das vlan 10 zu VLAN10
+vlan 20
+name VLAN20
+vlan 20
+name VLAN20
+->ports noch alle im vlan 1
+int|interface range f0/1,f0/4
+switchport mode access
+switchport access vlan 10
+->aktiviert was oder so
+switchport access vlan 20
+switchport access vlan 30
+do sh vlan
+
+exit
+exit
+
+überprüfen:
+show vlan
+
+
+
+Löschen:
+ras
+delete flash:vlan.dat
+die
+
+
+NUN COMPUTER:
+
+
+FLORIAN
+en
+conf t
+vlan 10
+name VLAN10
+vlan 20
+name VLAN20
+vlan 30
+name VLAN30
+exit
+do sh vlan
+interface range f0/1,f0/4
+switchport mode access
+switchport access vlan 10
+exit
+interface range f0/2,f0/5
+switchport mode access 
+switchport access vlan 20
+exit
+interface range f0/3,f0/6
+switchport mode access
+switchport access vlan 30
+exit
+do sh vlan
+
+
+1.)  von PC-1 nach PC-2. Notieren sie das Ergebnis. nein
+
+2.)  von PC-1 nach PC-3. Notieren Sie das Ergebnis. nein
+
+3.)  von PC-1 nach PC-4. Notieren Sie das Ergebnis. ja
+
+4.)  von PC-2 nach PC-3. Notieren Sie das Ergebnis. nein
+
+5.)  von PC-2 nach PC-5. Notieren Sie das Ergebnis. ja
+
+6.)  von PC-3 nach PC-5. Notieren Sie das Ergebnis. nein
+
+7.)  von PC-3 nach PC-6. Notieren Sie das Ergebnis. ja
