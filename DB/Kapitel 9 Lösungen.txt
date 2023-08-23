@@ -1,0 +1,84 @@
+--2
+DESCRIBE my_employee;
+
+--3
+INSERT INTO my_employee
+VALUES (1, 'Patel', 'Ralph', 'rpatel', 895);
+
+--4
+INSERT INTO my_employee (id, last_name, first_name, userid, salary)
+VALUES (2, 'Dancs', 'Betty', 'bdancs', 860);
+
+--5
+SELECT * FROM my_employee;
+
+--6
+INSERT INTO my_employee
+VALUES (&id, '&Nachname', '&vorname', '&NutzerId', &gehalt);
+
+--7
+Employees added
+
+--8
+SELECT * FROM my_employee;
+
+--9
+COMMIT;
+
+--10
+UPDATE my_employee
+SET last_name = 'Drexler'
+WHERE id = 3;
+
+--11
+UPDATE my_employee
+SET salary = 1000
+WHERE salary < 900;
+
+--12
+SELECT * FROM my_employee;
+
+--13
+DELETE FROM my_employee
+WHERE first_name = 'Betty' AND last_name = 'Dancs';
+
+--14
+SELECT * FROM my_employee;
+
+--15
+COMMIT;
+
+--16
+Employee added
+
+--17
+SELECT * FROM my_employee;
+
+--18
+Savepoint created
+
+--19
+DELETE FROM my_employee;
+
+--20
+SELECT * FROM my_employee;
+
+--21
+rollback to savepoint
+
+--22
+SELECT * FROM my_employee;
+
+--23
+COMMIT;
+
+--24
+INSERT INTO my_employee
+VALUES (&id, '&Nachname', '&vorname', LOWER(SUBSTRING(&vorname, 0, 0) + SUBSTRING(&nachname, 0, 6)), &gehalt);
+
+--25
+employee added
+
+--26
+SELECT * FROM my_employee;
+
