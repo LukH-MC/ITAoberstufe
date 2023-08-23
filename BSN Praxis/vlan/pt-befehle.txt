@@ -1,6 +1,7 @@
 vorbereitung:
 en|enable
-sh|show vlan
+sh|do show vlan
+->do hinschreiben, weil innerhalb der config gibt es kein show befehl, damit geht es wieder
 ->VLAN 1 hat alle konfigurierten ports
 
 einrichten:
@@ -17,6 +18,7 @@ name VLAN20
 int|interface range f0/1,f0/4
 switchport mode access
 switchport access vlan 10
+exit 
 ->aktiviert was oder so
 switchport access vlan 20
 switchport access vlan 30
