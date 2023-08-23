@@ -1,0 +1,52 @@
+1.
+SELECT e.first_name, e.hire_date, d.department_name
+FROM employees e
+JOIN departments d
+ON e.department_id = d.department_id;
+
+2.
+SELECT e.first_name, e.hire_date, d.department_name
+FROM employees e
+JOIN departments d
+ON e.department_id = d.department_id
+WHERE d.department_name IN ('Marketing', 'Executive', 'Sales');
+
+3.
+SELECT street_address, postal_code, city
+FROM locations
+WHERE city = &Stadt;
+
+4.
+!!!
+SELECT e.last_name "Mitarbeiter", COALESCE(to_char(e.manager_id), 'Kein Vorgesetzter') "Vorgesetzten Nr.", COALESCE(m.last_name, 'Kein Vorgesetzter') "Vorgesetzter"
+FROM employees m
+JOIN employees e
+ON m.manager_id = e.employee_id;
+
+5.
+SELECT d.department_ID, d.department_name, SUM(e.salary) "Gesamtgehalt"
+FROM departments d 
+JOIN employees e 
+ON d.department_id = e.department_id 
+GROUP BY d.department_id, d.department_name
+
+6.
+SELECT d.department_id, d.department_name, l.city, l.location_id
+FROM departments d
+JOIN locations l
+ON d.location_id = l.location_id;
+
+7.
+select last_name, salary
+FROM employees
+WHERE salary >= (SELECT AVG(salary) FROM employees)
+ORDER BY salary;
+
+8.
+SELECT last_name, department_id
+FROM EMPLOYEES
+MINUS
+SELECT last_name, department_id
+FROM EMPLOYEES
+WHERE department_id >= 50;
+
