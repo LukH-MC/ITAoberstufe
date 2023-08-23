@@ -1,0 +1,49 @@
+--Franksche Methode:
+--(verwendet aliase, tabellennamen und einen inner join)
+select e.last_name, e.first_name, d.department_name
+from employees e
+join departments d
+on e.department_id=d.department_id
+order by e.last_name;
+
+--ALternative
+--Statt einem Alias kann für die Tabellenzuordnung (siehe on) auch der Tabellenname verwendet werden
+--Tabellennamen müssen außer bei Redundanten Spaltennamen nicht angegeben werden
+select last_name, first_name, department_name
+from employees
+join departments
+on employees.department_id=departments.department_id
+order by last_name;
+
+--INNER JOIN
+--Ist der Standard Join
+--Nur Zeilen deren Vergleichswert in beiden Tabellen Vorkommt
+select last_name, first_name, department_name
+from employees e
+inner join departments d
+on e.department_id=d.department_id
+order by last_name;
+
+--LEFT JOIN
+--Nimmt alle Zeilen aus der linken Tabelle (employees) und fügt die laut ON passenden zeilen aus der rechten hinzu
+select last_name, first_name, department_name
+from employees e
+left join departments d
+on e.department_id=d.department_id
+order by last_name;
+
+--RIGHT JOIN
+--Nimmt alle Zeilen aus der rechten Tabelle (departments) und fügt die laut ON passenden Zeilen aus der linken hinzu
+select last_name, first_name, department_name
+from employees e
+right join departments d
+on e.department_id=d.department_id
+order by last_name;
+
+--FULL JOIN (oder wars outer?)
+--nimmt JA und schei´t auf Inhalte
+select last_name, first_name, department_name
+from employees e
+full join departments d
+on e.department_id=d.department_id
+order by last_name;
