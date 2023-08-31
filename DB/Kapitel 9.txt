@@ -1,0 +1,92 @@
+3.
+INSERT INTO my_employee
+VALUES (1, 'Patel', 'Ralph', 'rpatel', 895)
+
+4.
+INSERT INTO my_employee(ID, LAST_NAME, FIRST_NAME, USERID, SALARY)
+VALUES (2, 'Dancs', 'Betty', 'bdancs', 860)
+
+5.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+6.
+INSERT INTO my_employee
+VALUES ('&ID', '&LAST_NAME', '&FIRST_NAME', '&USERID', '&SALARY')
+
+8.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+9.
+COMMIT
+
+10.
+UPDATE my_employee
+SET last_name = 'Drexler'
+WHERE id = 3
+
+11.
+UPDATE my_employee
+SET salary = 1000
+WHERE salary < 900
+
+12.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+13.
+DELETE FROM my_employee
+WHERE userid = 'bdancs'
+
+14.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+15.
+COMMIT
+
+16.
+INSERT INTO my_employee
+VALUES (5, 'Ropeburn', 'Audrey', 'aropebur', 1550)
+
+17.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+18.
+SAVEPOINT my_employee
+
+19.
+DELETE FROM my_employee
+
+20.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+21.
+ROLLBACK TO my_employee
+
+22.
+SELECT *
+FROM my_employee
+ORDER BY id
+
+23.
+COMMIT
+
+24.
+SET ECHO OFF
+SET VERIFY OFF
+INSERT INTO my_employee
+VALUES (&p_id, '&&p_last_name', '&&p_first_name', lower(substr('&p_first_name',1,1) || substr('&p_last_name',1,7)), &p_salary)
+SET VERIFY ON
+SET ECHO ON
+UNDEFINE p_first_name
+UNDEFINE p_last_name
