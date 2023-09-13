@@ -1,0 +1,46 @@
+1.
+CREATE VIEW employees_vu
+AS SELECT employee_id, last_name AS employee, department_id
+FROM employees
+
+2.
+SELECT * FROM employees_vu
+
+3.
+SELECT employee, department_id
+FROM employees_vu
+
+4.
+CREATE VIEW dept50
+AS SELECT employee_id AS empno, last_name AS employee, department_id AS deptno
+FROM employees
+WHERE department_id = 50
+WITH READ ONLY
+
+5.
+DESCRIBE dept50
+
+6.
+UPDATE dept50
+SET deptno = 80
+WHERE employee = 'Matos'
+
+7.
+CREATE SEQUENCE dept_id_seq
+INCREMENT BY 10
+START WITH 200
+MAXVALUE 1000
+
+8.
+INSERT INTO dept
+VALUES(dept_id_seq.NEXTVAL, 'education');
+INSERT INTO dept
+VALUES(dept_id_seq.NEXTVAL, 'administration');
+
+9.
+CREATE INDEX dept_name_idx
+ON dept(name)
+
+10.
+CREATE SYNONYM emp
+FOR employees
