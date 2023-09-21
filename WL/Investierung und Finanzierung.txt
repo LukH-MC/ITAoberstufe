@@ -1,0 +1,38 @@
+Investierung und Finanzierung
+
+Geldmittel:
+ - Bargeld (Scheine, Münzen)
+ - Buchgeld (Geld auf Konten: Kontokorrentkonto, Sparkonto)
+
+Sachmittel:
+ - Gegenstände wie z.B. Pkw, die liquidiert werden können
+
+Investierung und Vermögen: "Man investiert in das Vermögen"
+Man kann investieren in:
+ - Anlagevermögen = Betriebsmittel (z.B. Gebäude, Maschinen, Fuhrpark, Betriebs- und Geschäftsausstattung (BGA))
+ - Umlaufvermögen (z.B. Werkstoffe, Waren, Wertpapiere)
+
+Finanzierung: Kapitalaufbringung
+Man kann finanzieren mit:
+ - Eigenkapital (zur Verfügung gestellt durch Unternehmensinhaber)
+ - Fremdkapital (außenstehende Dritte, z.B. Bank und Lieferanten)
+
+                                                    | Investierung    | Finanzierung
+----------------------------------------------------|-----------------|----------------
+ 1. Der Unternehmer gründet sein Unternehmen, indem | Bank     10000€ | EK      10000€
+ 	 er 10000€ von seinem Privatkonto auf das        |                 |
+	 Geschäftskonto überweist.                       |                 |
+----------------------------------------------------|-----------------|----------------
+ 2. Der Unternehmer kauft BGA für 6000€ und zahlt   | BGA       6000€ | EK      10000€
+	 bar.                                            | Bank      4000€ |
+----------------------------------------------------|-----------------|----------------
+ 3. Der Unternehmer kauft Ware für 20000€ auf       | BGA       6000€ | EK      10000€
+	 Rechnung.                                       | Ware     20000€ | FK      20000€
+	                                                 | Bank      4000€ |
+----------------------------------------------------|-----------------|----------------
+ 4. Der Unternehmer verkauft Ware für 50000€,       | BGA       6000€ | EK      60000€
+	 Kunden zahlen sofort durch Überweisung. Es      | Ware	   10000€ | FK      20000€
+	 wurde die Hälfte der zuvor eingekauften Waren   | Bank     54000€ |
+	 verkauft                                        |                 |
+
+Fremdkapital hat einen Nachteil: man muss es zurückzahlen
