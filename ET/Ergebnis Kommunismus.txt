@@ -1,0 +1,47 @@
+Technische Stromrichtung: + nach -
+Physikalische Stromrichtung: - nach +
+
+Rechte Faust Regel:
+Daumen = Stromrichtung
+Andere Finger = Magnetfeld
+magnetfeld in lauf richtung von fingern
+
+
+Induktion:
+
+
+Lorentz:
+LINKE HAND
+Daumen = stromrichtung zum pluspol
+Zeigefinger = Magnetfeld von Nord zu Süd
+Mittelfinger = Lorentz
+
+
+SSM = Standard Scheiss Magetfeld™
+
+Für SSM bei Spule einzeichnen:
+
+Punkt geht in deine Fresse(im Uhrzeugrsinn), Kreuz sagt, dass du stinkt(gegen den Uhrzeigersinn)
+
+
+Effektivwert: (Für spannung und strom)
+Ueff = U * 1/wurzel(2)
+1/wurzel(2) = 0,707
+
+Periodendauer:
+360° 50Hz
+
+Spitze Spitze wert:
+Differenz Maximum und Minusmaximum
+
+uss = us*2
+
+
+Uspitze = wurzel(2) * Ueffektiv
+
+effektiv = spitze(1/wurzel(2))
+
+Zusammenhang Periodendauer und Frequenz:
+
+T = 1/f
+
