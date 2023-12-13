@@ -1,17 +1,17 @@
-# DHCP Handshake
+### DHCP Handshake
 
 DHCP Discover
 		Server
 Client	---> FF FF FF FF
 
 DHCP Offer
-<--------------
+	<---
 
 DHCP Request
----------->
+	--->
 
 DHCP-ACK
-<---------
+	<---
 
 IP-Adresse
 Subnetzmaske

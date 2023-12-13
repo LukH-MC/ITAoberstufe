@@ -35,10 +35,7 @@ Anspruch ist äquivalent zu Kapital
 Lieferanten sind Kreditgeber
 Klauen ist das allerbeste!
 
-           Vermögen       Kapital
-         |--------------|------------------| Inhaber
-			| AV           | EK               |
-Eigentum |--------------|------------------| Außenstehende
-         | UV           | FK               | - Bank
-			| - Vave       | - Bankverbindung | - Lieferant
-			| - Lisnichlit | - Verbindlich    |
+|Vermögen|Kapital| |
+|:-|:-|:-|
+|AV|EK|**Inhaber**|
+|UV<br>- Ware<br>- Verbindlich|FK<br>- Bankverbindung<br>- Verbindlich|**Außenstehende<br>- Bank<br>- Lieferant**|
