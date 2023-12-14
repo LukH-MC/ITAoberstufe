@@ -1,0 +1,19 @@
+- Er distanziert sich von Möbius (zu ihrem Schutz laut Möbius)
+- Monikas Pläne verhindern
+- Er tötet Monika
+- Er reagiert abwesend und aggressiv, scheint aber innerlich traurig und niedergeschlagen zu sein
+
+- ist erschrocken
+- abgelenkt
+- bedrückt
+- empört
+- nachdenklich
+- ratlos
+- abwesend
+- schweigsam
+- Isoliert sich
+- handelt unter druckgefühl
+- niedergeschlagen
+- übermacht
+- überwältigt
+- fassungslos
