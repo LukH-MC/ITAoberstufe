@@ -1,0 +1,29 @@
+- ist erschrocken
+- ablehnend
+- bedrückt
+- empört
+- nachdenklich
+- ratlos
+- abweisend
+- schweigsam
+- isoliert sich
+- niedergeschlagen
+- überrascht
+- überwältigt
+- Konflikt zwischen Paranoia und dem Bestreben von Schwester Monika
+- fassungslos
+- verheuchelt
+- handelt unter Druckgefühl -> Mord
+---
+#### Vorausdeutungen auf die Ermordung von Schwester Monika
+- "Es ist tödlich an den König Salomon zu glauben" (S. 46)
+- "Sie rennen in ihr Verderben" (S. 46)
+- "Mehr als mein Leben, und darum sind sie in Gefahr" (S. 47)
+- "Es gibt nichts unsinnigeres auf der Welt als die Raserei mit der sich die Weiber aufopfern" (S. 48)
+- "Gehorchen sie ihrem Geliebten und fliehen sie, sonst sind sie verloren" (S. 48)
+- Einstein warnt (S. 48)
+- "Machen Sie sich aus dem Staub" (S. 49)
+- "Sonst muss ich Sie auch noch wie einen Hund behandeln" (S. 49)
+- "Aber Sie sollen nicht auch noch dafür bestraft werden" (S. 49)
+- "Sie laden nur Unglück auf sich. Verlassen sie die Anstalt, vergessen Sie mich. So ist es am besten für uns beide" (S. 49)
+- "Ich muss sie fortschicken" (S. 50)
