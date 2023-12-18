@@ -1,0 +1,134 @@
+1.
+SELECT *
+FROM employees
+WHERE hire_date > '1-JAN-97'
+AND job_id LIKE '%CLERK%';
+
+2.
+SELECT last_name, job_id, salary, commission_pct
+FROM employees
+WHERE commission_pct NOT LIKE 0
+ORDER BY salary ASC;
+
+3.
+SELECT CONCAT(CONCAT('The salary of ', last_name), CONCAT(' after a 10% raise is ', salary*1.1)) "New salary"
+FROM employees
+WHERE commission_pct IS NULL;
+
+4.
+SELECT last_name, FLOOR(MONTHS_BETWEEN(SYSDATE, hire_date)/12) "YEARS", FLOOR(MOD(MONTHS_BETWEEN(SYSDATE, hire_date), 12)) "MONTHS"
+FROM employees
+ORDER BY hire_date ASC;
+
+5.
+SELECT last_name
+FROM employees
+WHERE REGEXP_LIKE(last_name, '[J-M]');
+
+6.
+SELECT last_name, salary, DECODE(commission_pct, NULL, 'NO', 'YES') "COMMISSION"
+FROM employees;
+
+7.
+SELECT d.department_name, d.location_id, e.last_name, e.job_id, e.salary
+FROM employees e
+INNER JOIN departments d
+ON e.department_id = d.department_id
+WHERE d.location_id LIKE &location;
+
+8.
+SELECT COUNT(*)
+FROM employees
+WHERE last_name LIKE '%n';
+
+SELECT COUNT(*)
+FROM employees
+WHERE REGEXP_LIKE(last_name, '[n]$');
+
+9.
+SELECT department_id, department_name, location_id, (
+    SELECT COUNT(*) 
+    FROM employees 
+    WHERE departments.department_id 
+    LIKE employees.department_id
+    )
+FROM departments;
+
+10.
+SELECT e.job_id
+FROM employees e
+INNER JOIN departments d
+ON d.department_id = e.department_id
+WHERE d.department_id IN (10, 20);
+
+11.
+SELECT job_id, COUNT(*) "FREQUENCY"
+FROM employees
+WHERE department_id IN (10, 90)
+GROUP BY job_id;
+
+12.
+SELECT last_name, hire_date
+FROM employees
+WHERE EXTRACT(DAY FROM hire_date) < 16;
+
+13.
+SELECT last_name, salary, FLOOR(salary / 1000) "THOUSANDS"
+FROM employees;
+
+14.
+SELECT e.last_name, m.last_name "MANAGER", m.salary, (
+    SELECT grade_level 
+    FROM job_grades j
+    WHERE j.lowest_sal <= m.salary 
+    AND j.highest_sal >= m.salary
+    ) "GRADE_LEVEL"
+FROM employees e
+INNER JOIN employees m
+ON e.manager_id = m.employee_id
+WHERE m.salary >= 15000;
+
+15.
+SELECT e.department_id, d.department_name, (
+    SELECT COUNT(*) 
+    FROM employees x
+    WHERE x.department_id LIKE e.department_id
+    ) "EMPLOYEES", (
+    SELECT FLOOR(AVG(salary))
+    FROM employees x
+    WHERE x.department_id LIKE e.department_id
+    ) "AVG_SAL",
+    e.last_name, e.salary, e.job_id
+FROM departments d
+RIGHT JOIN employees e
+ON d.department_id = e.department_id
+
+16.
+
+
+17.
+SELECT department_id, department_name, manager_id, location_id
+FROM departments d
+WHERE (
+    SELECT COUNT(*)
+    FROM employees e 
+    WHERE e.department_id = d.department_id 
+    AND e.job_id = '%REP%'
+    ) LIKE 0;
+
+18.
+SELECT department_id, department_name, (SELECT COUNT(*) FROM employees e WHERE e.department_id LIKE d.department_id) "COUNT(*)"
+FROM departments d
+WHERE (SELECT COUNT(*) FROM employees e WHERE e.department_id LIKE d.department_id) < 3;
+
+SELECT department_id, department_name, (SELECT COUNT(*) FROM employees e WHERE e.department_id LIKE d.department_id) "COUNT(*)"
+FROM departments d
+WHERE (SELECT COUNT(*) FROM employees e WHERE e.department_id LIKE d.department_id) = (SELECT MAX(COUNT(*)) FROM employees e GROUP BY e.department_id);
+
+SELECT department_id, department_name, (SELECT COUNT(*) FROM employees e WHERE e.department_id LIKE d.department_id) "COUNT(*)"
+FROM departments d
+WHERE (SELECT COUNT(*) FROM employees e WHERE e.department_id LIKE d.department_id) = (SELECT MIN(COUNT(*)) FROM employees e GROUP BY e.department_id);
+
+19.
+
+
