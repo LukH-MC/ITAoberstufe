@@ -1,1 +1,0 @@
-https://livesql.oracle.com/apex/livesql/file/index.html

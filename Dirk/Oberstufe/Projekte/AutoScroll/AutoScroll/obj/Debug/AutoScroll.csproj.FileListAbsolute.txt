@@ -1,6 +1,0 @@
-E:\Schule\06 PRO\Oberstufe\Projekte\AutoScroll\AutoScroll\bin\Debug\AutoScroll.exe.config
-E:\Schule\06 PRO\Oberstufe\Projekte\AutoScroll\AutoScroll\obj\Debug\AutoScroll.csprojResolveAssemblyReference.cache
-E:\Schule\06 PRO\Oberstufe\Projekte\AutoScroll\AutoScroll\bin\Debug\AutoScroll.exe
-E:\Schule\06 PRO\Oberstufe\Projekte\AutoScroll\AutoScroll\bin\Debug\AutoScroll.pdb
-E:\Schule\06 PRO\Oberstufe\Projekte\AutoScroll\AutoScroll\obj\Debug\AutoScroll.exe
-E:\Schule\06 PRO\Oberstufe\Projekte\AutoScroll\AutoScroll\obj\Debug\AutoScroll.pdb

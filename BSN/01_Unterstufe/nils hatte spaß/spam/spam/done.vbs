@@ -1,1 +1,0 @@
-msgbox "Fertig",vbInformation,"Spam"

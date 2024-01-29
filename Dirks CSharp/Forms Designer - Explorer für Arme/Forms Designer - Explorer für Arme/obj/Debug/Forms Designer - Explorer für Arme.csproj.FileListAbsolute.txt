@@ -1,9 +1,0 @@
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\bin\Debug\Forms Designer - Explorer für Arme.exe.config
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\bin\Debug\Forms Designer - Explorer für Arme.exe
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\bin\Debug\Forms Designer - Explorer für Arme.pdb
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms Designer - Explorer für Arme.csprojResolveAssemblyReference.cache
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms_Designer___Explorer_für_Arme.Form1.resources
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms_Designer___Explorer_für_Arme.Properties.Resources.resources
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms Designer - Explorer für Arme.csproj.GenerateResource.Cache
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms Designer - Explorer für Arme.exe
-E:\Schule\010_SPT\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms Designer - Explorer für Arme.pdb

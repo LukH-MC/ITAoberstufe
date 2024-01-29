@@ -1,5 +1,0 @@
-E:\Schule\06 PRO\Oberstufe\Projekte\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\bin\Debug\Forms Designer - Explorer für Arme.exe.config
-E:\Schule\06 PRO\Oberstufe\Projekte\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms Designer - Explorer für Arme.csprojResolveAssemblyReference.cache
-E:\Schule\06 PRO\Oberstufe\Projekte\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms_Designer___Explorer_für_Arme.Form.resources
-E:\Schule\06 PRO\Oberstufe\Projekte\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms_Designer___Explorer_für_Arme.Properties.Resources.resources
-E:\Schule\06 PRO\Oberstufe\Projekte\Forms Designer - Explorer für Arme\Forms Designer - Explorer für Arme\obj\Debug\Forms Designer - Explorer für Arme.csproj.GenerateResource.Cache

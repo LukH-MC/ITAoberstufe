@@ -1,1 +1,0 @@
-shutdown /m \\win-108 /t 2 /c "lmao"
