@@ -1,0 +1,14 @@
+﻿Der Buildvorgang wurde am 16.08.2022 11:12:17 gestartet.
+     1>Projekt "c:\Users\frosendahl\documents\visual studio 2013\Projects\Projekt1\Projekt1\Projekt1.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Quelle.cpp
+         Quelle.cpp
+     1>c:\users\frosendahl\documents\visual studio 2013\projects\projekt1\projekt1\quelle.cpp(42): warning C4101: 'length': Unreferenzierte lokale Variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\frosendahl\documents\visual studio 2013\Projects\Projekt1\Debug\Projekt1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\frosendahl\documents\visual studio 2013\Projects\Projekt1\Debug\Projekt1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\frosendahl\documents\visual studio 2013\Projects\Projekt1\Debug\Projekt1.lib" /MACHINE:X86 Debug\Quelle.obj
+         Projekt1.vcxproj -> c:\users\frosendahl\documents\visual studio 2013\Projects\Projekt1\Debug\Projekt1.exe
+     1>Die Erstellung des Projekts "c:\Users\frosendahl\documents\visual studio 2013\Projects\Projekt1\Projekt1\Projekt1.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:00.64

@@ -1,0 +1,24 @@
+1.
+SELECT last_name || ' earns ' || salary || ' monthly but wants ' || salary*3 AS "Dream Salaries"
+FROM employees;
+
+2.
+SELECT last_name, hire_date, TO_CHAR(NEXT_DAY(ADD_MONTHS(hire_date, 6), 'MONDAY'),'fmDay, dd. Month YYYY') AS "Review"
+FROM employees;
+
+3.
+SELECT last_name, hire_date, TO_CHAR(hire_date, 'fmDay') AS "DAY"
+FROM employees
+ORDER BY TO_CHAR(hire_date, 'D') ASC;
+
+4.
+SELECT last_name, COALESCE(TO_CHAR(commission_pct), 'No Commission') AS "COMM"
+FROM employees;
+
+5.
+SELECT job_id, DECODE(job_id, 'AD_PRES', 'A', 'ST_MAN', 'B', 'IT_PROG', 'C', 'SA_REP', 'D', 'ST_CLERK', 'E', '0') AS "GRADE"
+FROM employees;
+
+6.
+SELECT job_id, CASE WHEN job_id = 'AD_PRES' THEN 'A' WHEN job_id = 'ST_MAN' THEN 'B' WHEN job_id = 'IT_PROG' THEN 'C' WHEN job_id = 'SA_REP' THEN 'D' WHEN job_id = 'ST_CLERK' THEN 'E' ELSE '0' END AS "GRADE"
+FROM employees;

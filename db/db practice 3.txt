@@ -1,0 +1,36 @@
+1.
+SELECT sysdate AS "Date"
+FROM dual;
+
+2.
+SELECT employee_id, last_name, salary, TRUNC(salary+(salary*0.155)) AS "New Salary"
+FROM employees;
+
+4.
+SELECT employee_id, last_name, salary, TRUNC(salary+(salary*0.155)) AS "New Salary", TRUNC(salary*0.155) AS "Increase"
+FROM employees;
+
+5.1
+SELECT last_name, LENGTH(last_name) AS "Length"
+FROM employees
+WHERE last_name LIKE 'J%' OR last_name LIKE 'A%' OR last_name LIKE 'M%';
+
+5.2
+SELECT last_name, LENGTH(last_name) AS "Length"
+FROM employees
+WHERE last_name LIKE '&START_LETTER%';
+
+5.3
+SELECT last_name, LENGTH(last_name) AS "Length"
+FROM employees
+WHERE last_name LIKE UPPER('&START_LETTER%');
+
+6.
+SELECT last_name, TRUNC(MONTHS_BETWEEN(sysdate,hire_date))
+FROM employees;
+
+7.
+SELECT last_name, LPAD(salary, 15, '$')
+FROM EMPLOYEES;
+
+8.

@@ -1,0 +1,9 @@
+1. Transferrate (T/s bzw Bit/s) berechnen
+   Transferrate = 4G * 1/s * 1Bit * 2 = 8GBit/s
+
+2. Kodierung beachten
+   Transferrate = 8GBit/s * 128/130 = 7,877GBit/s
+
+3. Jetzt in Byte umwandeln
+   Dür = 7,877GBit/s / 8Bit/Byte = 0,984625GB/s
+                                 = 984,625MB/s

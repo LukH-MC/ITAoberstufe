@@ -1,0 +1,44 @@
+1. true
+
+2. False
+
+3. True
+
+4.
+SELECT ROUND(MAX(salary)) "Maxium", ROUND(MIN(salary)) "Minimum", ROUND(SUM(salary)) "Summary", ROUND(AVG(salary)) "Average"
+FROM Employees;
+
+5.
+SELECT job_id, ROUND(MAX(salary)) "Maxium", ROUND(MIN(salary)) "Minimum", ROUND(SUM(salary)) "Summary", ROUND(AVG(salary)) "Average"
+FROM EMPLOYEES
+GROUP BY job_id;
+
+6.
+SELECT job_id, COUNT(*)
+FROM employees
+GROUP BY job_id;
+
+7.
+SELECT COUNT(DISTINCT manager_id) "Number of Managers"
+FROM EMPLOYEES;
+
+8.
+SELECT MAX(salary) - MIN(salary) difference
+FROM EMPLOYEES;
+
+9.
+SELECT manager_id, MIN(salary)
+FROM EMPLOYEES
+WHERE manager_id IS NOT NULL
+GROUP BY manager_id
+HAVING MIN(salary) > 6000
+ORDER BY MIN(salary);
+
+10.
+SELECT COUNT(*) total, COUNT(decode(to_char(hire_date, 'YYYY'), 1995, '1')) "1995", COUNT(decode(to_char(hire_date, 'YYYY'), 1996, '1')) "1996", COUNT(decode(to_char(hire_date, 'YYYY'), 1997, '1')) "1997",COUNT(decode(to_char(hire_date, 'YYYY'), 1999, '1')) "1999"
+FROM EMPLOYEES;
+
+11.
+SELECT DISTINCT (job_id) "Job", SUM(decode(department_id, 20, salary)) "Dept 20", SUM(decode(department_id, 50, salary)) "Dept 50", SUM(decode(department_id, 80, salary)) "Dept 80", SUM(decode(department_id, 90, salary)) "Dept 90", SUM(salary) total
+FROM EMPLOYEES
+GROUP BY job_id;

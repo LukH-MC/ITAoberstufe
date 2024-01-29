@@ -1,0 +1,82 @@
+1.
+SELECT last_name, salary
+FROM employees
+WHERE salary > 12000;
+
+2.
+SELECT last_name, department_ID
+FROM employees
+WHERE employee_ID = 176;
+
+3.
+SELECT last_name, salary
+FROM employees
+WHERE salary NOT BETWEEN 5000 AND 12000;
+
+4.
+SELECT last_name, job_ID, hire_date
+FROM employees
+WHERE last_name = 'Matos' OR last_name = 'Taylor';
+
+5.
+SELECT last_name, department_ID
+FROM employees
+WHERE department_ID = 20 OR department_ID = 50
+ORDER BY last_name;
+
+6.
+SELECT last_name AS "Employee", salary AS "Monthly Salary"
+FROM employees
+WHERE (salary BETWEEN 5000 AND 12000)
+AND (department_ID = 20 OR department_ID = 50);
+
+7.
+SELECT last_name, hire_date
+FROM employees
+WHERE hire_date BETWEEN '01-01-94' AND '31-12-94';
+
+8.
+SELECT last_name, job_ID
+FROM employees
+WHERE manager_id is null;
+
+9.
+SELECT last_name, salary, commission_pct
+FROM employees
+WHERE commission_pct != 0
+ORDER BY commission_pct DESC;
+
+10.
+SELECT last_name, salary
+FROM employees
+WHERE salary > &Salary;
+
+11.
+SELECT employee_id, last_name, salary, department_id
+FROM employees
+WHERE manager_id = &Manager_ID
+ORDER BY &Order;
+
+12.
+SELECT last_name
+FROM employees
+WHERE last_name LIKE '__a%';
+
+13.
+SELECT last_name
+FROM employees
+WHERE last_name LIKE '%a%'
+AND last_name LIKE '%e%'
+ORDER BY last_name;
+
+14.
+SELECT last_name, job_id, salary
+FROM employees
+WHERE (job_id = 'SA_REP' OR job_id = 'ST_CLERK')
+AND (salary != 2500 AND salary != 3500 AND salary != 7000)
+ORDER BY salary DESC;
+
+15.
+SELECT last_name AS Employee, salary, commission_pct
+FROM employees
+WHERE commission_pct = 0.2;

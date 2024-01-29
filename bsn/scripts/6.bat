@@ -1,0 +1,1 @@
+dsadd group CN=Test,OU=Egal,DC=SV22,DC=local

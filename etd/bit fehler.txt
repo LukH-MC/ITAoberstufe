@@ -1,0 +1,13 @@
+Anzahl erkennbarer Fehler			Fe = HD - 1
+Anzahl korrigierbarer Fehler		Fe = HD - 1 / 2 für HD ungerade
+											Fe = HD / 2 - 1 für HD gerade
+
+Ungleichung von Kraft		r = Anzahl der Prüfstellen  m = Anzahl der Informationsstellen
+									2^r ≥ r + m + 1
+
+r  m
+1  0
+2  1
+3  4
+4 11
+5 26

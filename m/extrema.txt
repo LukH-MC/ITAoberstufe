@@ -1,0 +1,33 @@
+f(x)=x³-x²-9x+9
+f'(x)=3x²-2x-9
+f''(x)=6x-2
+f'''(x)=6
+
+Extrema Notwendigebedingung
+f'(x)=0
+
+3x²-2x-9=0 |:3
+x²-0,66x-3=0
+
+x1,2=0,66/2+-wurzel[(-0,66/2)²+3]
+x1=2,097
+x2=-1,430
+
+f''(2,097)=6*2,097-2=10,582 > 0 also TP
+f''(-1,430)=6*(-1,430)-2=-10,582 < 0 also HP
+
+y-Werte berechnen
+f(x1)=f(2,097)=-5,049
+f(x2)=f(-1,430)=20,9906
+
+
+g(x)=x³+4x²+x-6
+g'(x)=3x²+8x+1
+g''(x)=6x+8
+g'''(x)=6
+
+Extrema Notwendigebedingung
+f'(x)=0
+
+3x²+8x+1=0 |:3
+x²+2,66x+0,33=0

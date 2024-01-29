@@ -1,0 +1,4 @@
+lagerbestand möglichst niedrig
+-> häufiger kleinere mengen kaufen statt selten viel (höhere bestellhäufigkeit und bestellkosten)
+umschlagshäufigkeit möglichst hoch
+durchschnittliche lagerdauer möglichst niedrig
