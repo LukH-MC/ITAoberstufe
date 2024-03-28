@@ -15,6 +15,13 @@
 - verheuchelt
 - handelt unter Druckgefühl -> Mord
 ---
+
+- Er distanziert sich von Möbius (zu ihrem Schutz laut Möbius)
+- Monikas Pläne verhindern
+- Er tötet Monika
+- Er reagiert abwesend und aggressiv, scheint aber innerlich traurig und niedergeschlagen zu sein
+---
+
 #### Vorausdeutungen auf die Ermordung von Schwester Monika
 - "Es ist tödlich an den König Salomon zu glauben" (S. 46)
 - "Sie rennen in ihr Verderben" (S. 46)
