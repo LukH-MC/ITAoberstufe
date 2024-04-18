@@ -1,0 +1,90 @@
+1. Anzahl unterschiedlicher Jobs
+SELECT COUNT(*)
+FROM jobs;
+
+2. Anzeige unterschiedlicher Job_titles, die bei Mitarbeitern vorhanden sind
+SELECT DISTINCT j.job_title
+FROM employees e
+LEFT JOIN jobs j
+ON e.job_id = j.job_id;
+
+3. Durchschnittliche Differenz zwischen Min_salary und Max_Salary
+SELECT ROUND(AVG(max_salary - min_salary))
+FROM jobs;
+
+4. Summe der Gehälter pro job_id
+SELECT job_id, SUM(salary)
+FROM employees
+GROUP BY (job_id);
+
+5. wie 4., dargestellt als "***"
+SELECT job_id, LPAD('*', ROUND(SUM(salary)/1000), '*'), SUM(salary)
+FROM employees
+GROUP BY (job_id);
+
+6. Anzeige von job_grade pro Mitarbeiter
+SELECT e.last_name, g.grade_level
+FROM employees e
+LEFT JOIN job_grades g
+ON e.salary >= g.lowest_sal AND e.salary <= g.highest_sal
+ORDER BY grade_level;
+
+7. Anzahl der Mitarbeiter pro job_grade
+SELECT COUNT(e.employee_id), g.grade_level
+FROM employees e
+RIGHT JOIN job_grades g
+ON e.salary >= g.lowest_sal AND e.salary <= g.highest_sal
+GROUP BY g.grade_level
+ORDER BY grade_level;
+
+8. Wieviel Gehalt fehlt bei jedem Mitarbeiter bis zum Erreichen des Highest_Salary?
+SELECT e.last_name, e.job_id, j.max_salary, e.salary, j.max_salary - e.salary SALARY_MISSING
+FROM employees e
+LEFT JOIN jobs j
+ON e.job_id = j.job_id;
+
+9. Um wieviel % müsste sein Gehalt erhöht werden, um das Highest_salary zu erreichen?
+SELECT e.last_name, e.job_id, j.max_salary, e.salary, ROUND((j.max_salary - e.salary) / e.salary * 100, 2) PERCENT_MISSING
+FROM employees e
+LEFT JOIN jobs j
+ON e.job_id = j.job_id;
+
+10. Manager mit dem niedrigsten job_grade
+SELECT e.*
+FROM employees e
+WHERE e.manager_id IS NOT NULL
+AND e.salary <= (
+    SELECT highest_sal
+    FROM job_grades
+    FETCH FIRST 1 ROWS ONLY 
+);
+
+11. Welche Departments haben dieselbe location_id wie das Department, das Managerin Higgins leitet?
+SELECT * 
+FROM departments
+WHERE location_id LIKE (
+    SELECT location_id
+    FROM departments
+    WHERE department_id LIKE (
+        SELECT department_id 
+        FROM employees
+        WHERE last_name = 'Higgins'
+    	) 
+    )
+;
+
+12. View, die alle Departments mit Managernamen mit Telefonnummer aufführt.
+CREATE OR REPLACE VIEW testview AS
+SELECT d.department_name, e.last_name MANAGER, e.phone_number
+FROM departments d
+LEFT JOIN employees e
+ON d.manager_id = e.employee_id;
+
+13. wie 12, aber mit flexibler Eingabe des Department_names.
+CREATE OR REPLACE VIEW testview AS
+SELECT d.department_name, e.last_name MANAGER, e.phone_number
+FROM departments d
+LEFT JOIN employees e
+ON d.manager_id = e.employee_id
+WHERE d.department_name = '&department_name';
+

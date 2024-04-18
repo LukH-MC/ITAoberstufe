@@ -1,0 +1,11 @@
+Verschlüsselung 
+IPv6  ***
+  Subnetting
+  Aufbau / Schreibweise
+  Routing / Adressvergabe
+STP *
+NDP *
+DSGVO / TOM **
+OSPF / RIP *
+  Dijkastra
+Raid *
