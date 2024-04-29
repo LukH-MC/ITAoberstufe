@@ -4,21 +4,21 @@
    Sommersonnenbrand2017, wird eingetragen ohne dass
    sich Zeichen wiederholen, dann auffüllen a-z, 0-9.
 
-| |A|D|F|G|V|X|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|**A**|s|o|m|e|r|n|
-|**D**|b|a|d|2|0|1|
-|**F**|7|c|f|g|h|i|
-|**G**|j|k|l|p|q|t|
-|**V**|u|v|w|x|y|z|
-|**X**|3|4|5|6|8|9|
+|       |  A  |  D  |  F  |  G  |  V  |  X  |
+| :---: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **A** |  s  |  o  |  m  |  e  |  r  |  n  |
+| **D** |  b  |  a  |  d  |  2  |  0  |  1  |
+| **F** |  7  |  c  |  f  |  g  |  h  |  i  |
+| **G** |  j  |  k  |  l  |  p  |  q  |  t  |
+| **V** |  u  |  v  |  w  |  x  |  y  |  z  |
+| **X** |  3  |  4  |  5  |  6  |  8  |  9  |
 
 2. Verschlüsseln des Fisches. Man nehme die Koordinaten
 	des Buchstaben (y|x) und schreibt sie hintereinander.
 	
-|f|i|s|c|h|
-|:-:|:-:|:-:|:-:|:-:|
-|FF|FX|AA|FD|FV|
+|  f  |  i  |  s  |  c  |  h  |
+| :-: | :-: | :-: | :-: | :-: |
+| FF  | FX  | AA  | FD  | FV  |
 
 3. Man schreibt das zweite Passwort auf und nummeriert
 	dessen Buchstaben in Alphabetischer Reihenfolge.
