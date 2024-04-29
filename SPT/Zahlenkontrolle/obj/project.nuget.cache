@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O0GXKip6Rv0MCKknd08oKmb5EgWHJy8J1/CyxkwvpdGlcQXnO/pVVoQbVIgyTAskBNKj3AQ9Ng/N7Ba2FQzFJg==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/RiderProjects/Zahlenkontrolle/Zahlenkontrolle.csproj",
+  "expectedPackageFiles": [
+    "/home/finn/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

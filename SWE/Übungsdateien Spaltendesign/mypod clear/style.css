@@ -1,0 +1,22 @@
+body { 
+	background-color: #eaf3da;
+	}
+	
+#seitenleiste{
+	width: 200px;
+	background-color: #eaf300;
+	float: right;
+	margin-left: 10px;
+	}
+	
+#fussleiste{
+	margin-top: 10px;
+	border: 2px dotted #232323;
+	width: 600px;
+	}
+	
+span {
+	font-weight: bold;
+	color: red;
+	}
+	

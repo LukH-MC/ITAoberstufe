@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "147Bh3D/pEgpuBFOgI2K4/3RA9jBpFkwmfxkTwsDjzbbNYo+CYLFY5GBFSBuGOTQx1Via2wWXAUrVhI4/eNESw==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/vererbung/vererbung.csproj",
+  "expectedPackageFiles": [
+    "/home/finn/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.13/microsoft.aspnetcore.app.ref.7.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

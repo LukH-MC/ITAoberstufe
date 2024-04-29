@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YFoOnH88rznpAiXnJlDuvAbCfmW+DMhnF2fFHSlvFMi/biux/Bct1Oce2uxg/a8cEOmjxIbtM5y3ikfJesVTBA==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/RiderProjects/Klassen/Klassen.csproj",
+  "expectedPackageFiles": [
+    "/home/finn/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

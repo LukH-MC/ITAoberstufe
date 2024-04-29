@@ -1,0 +1,15 @@
+/home/finn/Documents/RiderProjects/Eigenschaften/bin/Debug/net7.0/Eigenschaften
+/home/finn/Documents/RiderProjects/Eigenschaften/bin/Debug/net7.0/Eigenschaften.deps.json
+/home/finn/Documents/RiderProjects/Eigenschaften/bin/Debug/net7.0/Eigenschaften.runtimeconfig.json
+/home/finn/Documents/RiderProjects/Eigenschaften/bin/Debug/net7.0/Eigenschaften.dll
+/home/finn/Documents/RiderProjects/Eigenschaften/bin/Debug/net7.0/Eigenschaften.pdb
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.csproj.AssemblyReference.cache
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.GeneratedMSBuildEditorConfig.editorconfig
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.AssemblyInfoInputs.cache
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.AssemblyInfo.cs
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.csproj.CoreCompileInputs.cache
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.dll
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/refint/Eigenschaften.dll
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.pdb
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/Eigenschaften.genruntimeconfig.cache
+/home/finn/Documents/RiderProjects/Eigenschaften/obj/Debug/net7.0/ref/Eigenschaften.dll

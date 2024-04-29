@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4C8Y28paG2P7ovcXhDLB1bjZOAxekrPJgMIZ6QSl2Lw74ayBdh4480P8N5G//ujBu2mSp1fq5ageG7Ttu1P+nw==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/RiderProjects/Eigenschaften/Eigenschaften.csproj",
+  "expectedPackageFiles": [
+    "/home/finn/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

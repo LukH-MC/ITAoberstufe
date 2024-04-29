@@ -1,0 +1,15 @@
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/bin/Debug/net7.0/Kontrollstrukturen
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/bin/Debug/net7.0/Kontrollstrukturen.deps.json
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/bin/Debug/net7.0/Kontrollstrukturen.runtimeconfig.json
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/bin/Debug/net7.0/Kontrollstrukturen.dll
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/bin/Debug/net7.0/Kontrollstrukturen.pdb
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.csproj.AssemblyReference.cache
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.GeneratedMSBuildEditorConfig.editorconfig
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.AssemblyInfoInputs.cache
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.AssemblyInfo.cs
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.csproj.CoreCompileInputs.cache
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.dll
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/refint/Kontrollstrukturen.dll
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.pdb
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/Kontrollstrukturen.genruntimeconfig.cache
+/home/finn/Documents/RiderProjects/Kontrollstrukturen/obj/Debug/net7.0/ref/Kontrollstrukturen.dll

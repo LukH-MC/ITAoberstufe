@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5L1c1DHPJsAzDCO1hLz77uwmImmMlww5X80yK3NzSCPE1sMN+mednpc7r8M6xf2HHNypOvvd3RCHlsgHNKxyDA==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/RiderProjects/Indexer/Indexer.csproj",
+  "expectedPackageFiles": [
+    "/home/finn/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.13/microsoft.aspnetcore.app.ref.7.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

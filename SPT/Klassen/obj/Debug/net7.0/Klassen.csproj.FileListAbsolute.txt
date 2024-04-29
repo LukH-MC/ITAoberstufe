@@ -1,0 +1,15 @@
+/home/finn/Documents/RiderProjects/Klassen/bin/Debug/net7.0/Klassen
+/home/finn/Documents/RiderProjects/Klassen/bin/Debug/net7.0/Klassen.deps.json
+/home/finn/Documents/RiderProjects/Klassen/bin/Debug/net7.0/Klassen.runtimeconfig.json
+/home/finn/Documents/RiderProjects/Klassen/bin/Debug/net7.0/Klassen.dll
+/home/finn/Documents/RiderProjects/Klassen/bin/Debug/net7.0/Klassen.pdb
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.csproj.AssemblyReference.cache
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.GeneratedMSBuildEditorConfig.editorconfig
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.AssemblyInfoInputs.cache
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.AssemblyInfo.cs
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.csproj.CoreCompileInputs.cache
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.dll
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/refint/Klassen.dll
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.pdb
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/Klassen.genruntimeconfig.cache
+/home/finn/Documents/RiderProjects/Klassen/obj/Debug/net7.0/ref/Klassen.dll

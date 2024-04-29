@@ -1,0 +1,15 @@
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.csproj.AssemblyReference.cache
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.GeneratedMSBuildEditorConfig.editorconfig
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.AssemblyInfoInputs.cache
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.AssemblyInfo.cs
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.csproj.CoreCompileInputs.cache
+/home/finn/Documents/vererbung/bin/Debug/net7.0/vererbung
+/home/finn/Documents/vererbung/bin/Debug/net7.0/vererbung.deps.json
+/home/finn/Documents/vererbung/bin/Debug/net7.0/vererbung.runtimeconfig.json
+/home/finn/Documents/vererbung/bin/Debug/net7.0/vererbung.dll
+/home/finn/Documents/vererbung/bin/Debug/net7.0/vererbung.pdb
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.dll
+/home/finn/Documents/vererbung/obj/Debug/net7.0/refint/vererbung.dll
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.pdb
+/home/finn/Documents/vererbung/obj/Debug/net7.0/vererbung.genruntimeconfig.cache
+/home/finn/Documents/vererbung/obj/Debug/net7.0/ref/vererbung.dll

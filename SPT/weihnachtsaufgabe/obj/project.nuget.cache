@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EQuSqxlabyA8un9Gus8/xT55aY4C9zh0AfeZDJ5YrGDH9iB/Z4YZmC0NlIjXMOkkOcMBHoDim0yU94FkfXfdjQ==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/weihnachtsaufgabe/weihnachtsaufgabe.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

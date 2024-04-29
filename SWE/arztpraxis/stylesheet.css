@@ -1,0 +1,89 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans serif";
+  background-color: #f2f1f0;
+  margin: 0;
+  padding: 8px;
+  color: #ffffff;
+}
+header {
+  background-color: #759b0d;
+  width: inherit;
+  height: 100px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 100px;
+  border-radius: 15px;
+  box-shadow: #515151 2px 3px 3px 0;
+}
+nav {
+  background-color: #759b0d;
+  width: fit-content;
+  height: fit-content;
+  float: left;
+  margin-right: 15px;
+  font-size: 16px;
+  border-radius: 15px;
+  box-shadow: #515151 2px 3px 3px 0;
+}
+nav * {
+  margin: 10px;
+}
+main {
+  background-color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  overflow: auto;
+  font-size: 14px;
+  color: #555555;
+  border-radius: 15px;
+  box-shadow: #515151 2px 3px 3px 0;
+}
+main > * {
+  padding: 5px 20px 10px 20px;
+
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+a:link {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+a:active {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+main a {
+  text-decoration: underline !important;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  margin-bottom: 15px;
+  padding-right: 20px;
+  padding-right: 20px;
+}
+li .current {
+  color: #2e2e2e;
+}

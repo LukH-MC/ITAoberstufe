@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Bo3FAA/c/NjAXg3nh4xtDzMe/V0yimUIVG9DYQ3FbN9qF14cx1y94mdXJqeBV3NkhS1A3FRiUPfzN+JC2Ivkg==",
+  "success": true,
+  "projectFilePath": "/home/finn/Documents/RiderProjects/Arrays/Arrays.csproj",
+  "expectedPackageFiles": [
+    "/home/finn/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.12/microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

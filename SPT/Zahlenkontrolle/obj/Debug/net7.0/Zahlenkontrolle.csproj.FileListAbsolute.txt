@@ -1,0 +1,15 @@
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/bin/Debug/net7.0/Zahlenkontrolle
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/bin/Debug/net7.0/Zahlenkontrolle.deps.json
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/bin/Debug/net7.0/Zahlenkontrolle.runtimeconfig.json
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/bin/Debug/net7.0/Zahlenkontrolle.dll
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/bin/Debug/net7.0/Zahlenkontrolle.pdb
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.csproj.AssemblyReference.cache
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.GeneratedMSBuildEditorConfig.editorconfig
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.AssemblyInfoInputs.cache
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.AssemblyInfo.cs
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.csproj.CoreCompileInputs.cache
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.dll
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/refint/Zahlenkontrolle.dll
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.pdb
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/Zahlenkontrolle.genruntimeconfig.cache
+/home/finn/Documents/RiderProjects/Zahlenkontrolle/obj/Debug/net7.0/ref/Zahlenkontrolle.dll

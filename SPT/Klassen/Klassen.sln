@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klassen", "Klassen.csproj", "{AD48B7DE-38ED-40A2-A76C-1493E6A1894D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD48B7DE-38ED-40A2-A76C-1493E6A1894D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD48B7DE-38ED-40A2-A76C-1493E6A1894D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD48B7DE-38ED-40A2-A76C-1493E6A1894D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD48B7DE-38ED-40A2-A76C-1493E6A1894D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

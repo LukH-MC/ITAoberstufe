@@ -1,0 +1,34 @@
+body { 
+	background-color: #eaf3da;
+	}
+
+#kopfleiste {
+	margin: 10px;
+	height: 108px;
+	border: 1px dotted #ff2828;
+	}
+	
+#seitenleiste {
+	width: 200px;
+	background-color: #eaf300;
+	float: right;
+	margin-left: 10px;
+	}
+
+#hauptinhalt {
+	margin-right: 220px;
+	border: 1px solid #000;
+	}
+
+
+#fussleiste{
+	margin-top: 50px;
+	border: 2px dotted #232323;
+	clear: right;
+	}
+	
+span {
+	font-weight: bold;
+	color: red;
+	}
+	

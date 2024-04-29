@@ -1,0 +1,16 @@
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.csproj.AssemblyReference.cache
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.AssemblyInfoInputs.cache
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.AssemblyInfo.cs
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.csproj.CoreCompileInputs.cache
+/home/finn/Documents/RiderProjects/Arrays/bin/Debug/net7.0/Arrays
+/home/finn/Documents/RiderProjects/Arrays/bin/Debug/net7.0/Arrays.deps.json
+/home/finn/Documents/RiderProjects/Arrays/bin/Debug/net7.0/Arrays.runtimeconfig.json
+/home/finn/Documents/RiderProjects/Arrays/bin/Debug/net7.0/Arrays.dll
+/home/finn/Documents/RiderProjects/Arrays/bin/Debug/net7.0/Arrays.pdb
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.dll
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/refint/Arrays.dll
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.pdb
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/Arrays.genruntimeconfig.cache
+/home/finn/Documents/RiderProjects/Arrays/obj/Debug/net7.0/ref/Arrays.dll
+/home/finn/Documents/RiderProjects/Arrays/bin/Debug/net7.0/Vokabeln.dat
