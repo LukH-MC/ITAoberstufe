@@ -1,0 +1,23 @@
+body {
+  background-color: #99cccc;
+  font-family: arial, sans-serif;
+  color: #440017;
+  font-size: 0.8em;
+}
+		
+h1 {
+  color: #550022;
+  border-bottom: 2px dotted #333333;
+  font-size: 1.3em;
+}
+	
+h2 {
+  color: #456581;
+  font-size: 1.1em;
+  font-style: italic;
+}
+	
+h3 {
+  color: #550022;
+  font-size: 1em;
+}
