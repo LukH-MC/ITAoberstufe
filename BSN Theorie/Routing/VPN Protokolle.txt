@@ -1,0 +1,25 @@
+Virtuell Private Network
+
+I nternet
+P rotocoll
+Sec urity
+->IPsec ist ein Framework zur Sicherung von Internetprotokollen durch Verschlüsselung und Authentifizierung von Datenübertragungen zwischen Netzwerken. Es bietet Mechanismen für Vertraulichkeit, Integrität und Authentizität der Daten, indem es verschlüsselte Tunnel zwischen Endpunkten einrichtet.
+(Layer 3)
+
+
+I nternet
+S ecurity
+A ssociation
+    and
+K ey
+M management
+P rotocoll
+->ISAKMP ist ein Protokoll, das für den Aufbau von Sicherheitsverbänden und den Austausch von Schlüsselmaterial in IPsec-Implementierungen verwendet wird. Es ermöglicht die Verhandlung von Sicherheitsrichtlinien, den Austausch von Schlüsselmaterial und die Authentifizierung von Kommunikationspartnern.
+(Layer 4)
+
+
+E ncapsulation
+S ecurity
+P rotocoll
+->ESP ist ein Protokoll innerhalb des IPsec-Frameworks, das für die Vertraulichkeit und Integrität von IP-Paketen verantwortlich ist. Es verschlüsselt die Nutzlast der IP-Pakete, schützt sie vor Abhörung und Manipulation während der Übertragung und bietet somit ein hohes Maß an Datensicherheit in VPN-Umgebungen.
+(Layer 3 )
