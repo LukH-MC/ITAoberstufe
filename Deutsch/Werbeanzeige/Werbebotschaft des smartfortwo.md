@@ -1,0 +1,1 @@
+Wenn man einen Smart fortwo kauft, erhält man Mobilität. Man bekommt die Möglichkeit, sich geschwind durch Städte und Verkehr zu bewegen, gechmeidig einzuparken und scharfe Wendungen zu vollführen.
