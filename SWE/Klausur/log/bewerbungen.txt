@@ -1,0 +1,6 @@
+Hans	Meier	Netzwerktechniker/in	Düsseldorf	15	16.04.2024	HM171
+Karin	Kraus	Manager/in	Hamburg	3	16.04.2024	KK171
+Michele	Conci	Manager/in	Hamburg	8	16.04.2024	MC171
+Kim	Malhi	Netzwerktechniker/in	München	8	16.04.2024	KM171
+Kim	Malhi	Netzwerktechniker/in	München	8	16.04.2024	KM171
+Kim	Malhi	Netzwerktechniker/in	München	8	16.04.2024	KM171
