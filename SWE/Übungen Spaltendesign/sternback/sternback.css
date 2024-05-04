@@ -1,0 +1,62 @@
+body {
+  background-color: #b5a789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+#kopfleiste {
+  background-color: #675c47;
+  margin:           10px;
+  height:           108px;
+}
+
+#hauptinhalt {
+  background:       #efe5d0 url(bilder/hintergrund.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+}
+
+#seitenleiste {
+  background:       #efe5d0 url(bilder/hintergrund.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  float: right;
+  width: 40%;
+}
+
+#fussleiste {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.muehlenueberschrift {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
