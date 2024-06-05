@@ -1,0 +1,126 @@
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname ISP-DU-Gateway
+!
+!
+!
+enable password class
+!
+!
+!
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+username admin password 0 admin
+!
+!
+license udi pid CISCO2901/K9 sn FTX15246UX6-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip ssh version 1
+no ip domain-lookup
+ip domain-name BZREG-DU
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ ip address 194.0.0.9 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Serial0/0/0
+ no ip address
+ clock rate 2000000
+ shutdown
+!
+interface Serial0/0/1
+ ip address 200.200.200.14 255.255.255.252
+ ip access-group IN-OUT in
+ ip access-group IN-OUT out
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+ip route 0.0.0.0 0.0.0.0 Serial0/0/1 
+!
+ip flow-export version 9
+!
+!
+ip access-list extended IN-OUT
+ permit ip host 194.0.0.14 any
+ permit ip any host 194.0.0.14
+ permit icmp host 194.0.0.13 any
+ permit icmp any host 194.0.0.13
+ permit udp host 194.0.0.13 any eq domain
+ permit udp any host 194.0.0.13 eq domain 
+ permit tcp host 194.0.0.13 any eq domain
+ permit tcp any host 194.0.0.13 eq domain
+ permit tcp host 194.0.0.13 any eq smtp
+ permit tcp any host 194.0.0.13 eq smtp 
+ permit tcp host 194.0.0.13 any eq pop3
+ permit tcp any host 194.0.0.13 eq pop3
+ permit tcp any host 194.0.0.13 eq www
+ permit tcp host 194.0.0.13 any eq wwww
+ permit tcp host 194.0.0.13 any established
+ permit tcp any host 194.0.0.13 gt 1024
+ permit udp any host 194.0.0.13 gt 1024
+ deny ip any any
+!
+no cdp run
+!
+banner login user:password
+banner motd user access verificatio
+!
+!
+!
+!
+!
+line con 0
+ password con
+ login
+!
+line aux 0
+!
+line vty 0 4
+ password vty
+ login local
+ transport input ssh
+line vty 5 15
+ password vty
+ login local
+ transport input ssh
+!
+!
+!
+end
+

@@ -1,0 +1,177 @@
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname LocalRouter-BK
+!
+!
+!
+enable password class
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+username admin password 0 admin
+!
+!
+license udi pid CISCO2901/K9 sn FTX1524VR0O-
+license boot module c2900 technology-package securityk9
+!
+!
+!
+crypto isakmp policy 2021
+ encr aes
+ authentication pre-share
+ group 2
+!
+crypto isakmp key Testaufgabe address 194.0.0.14
+!
+!
+!
+crypto ipsec transform-set VPN-SET esp-3des esp-sha-hmac
+!
+crypto map VPN-MAP 2021 ipsec-isakmp 
+ set peer 194.0.0.14
+ set transform-set VPN-SET 
+ match address MATCH
+!
+!
+!
+!
+ip ssh version 1
+no ip domain-lookup
+ip domain-name BK-Hilden
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ ip address 194.0.0.6 255.255.255.248
+ ip nat outside
+ duplex auto
+ speed auto
+ crypto map VPN-MAP
+ ip access-group IN-OUT in
+ ip access-group IN-OUT out
+!
+interface GigabitEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1.10
+ encapsulation dot1Q 10
+ ip address 172.16.10.1 255.255.255.0
+ ip helper-address 172.16.50.2
+ ip access-group to_vlan10 in
+ ip access-group to_vlan10 out
+!
+interface GigabitEthernet0/1.20
+ encapsulation dot1Q 20
+ ip address 172.16.20.1 255.255.255.0
+ ip helper-address 172.16.50.2
+ ip nat inside
+!
+interface GigabitEthernet0/1.30
+ encapsulation dot1Q 30
+ ip address 172.16.30.1 255.255.255.0
+ ip helper-address 172.16.50.2
+ ip nat inside
+!
+interface GigabitEthernet0/1.50
+ encapsulation dot1Q 50
+ ip address 172.16.50.1 255.255.255.0
+!
+interface GigabitEthernet0/1.99
+ encapsulation dot1Q 99
+ ip address 172.16.99.1 255.255.255.0
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip nat inside source list PAT-TRANSLATE interface GigabitEthernet0/0 overload
+ip classless
+ip route 0.0.0.0 0.0.0.0 194.0.0.1 
+!
+ip flow-export version 9
+!
+!
+ip access-list extended MATCH
+ permit ip 172.16.10.0 0.0.0.255 192.168.10.0 0.0.0.255
+ deny ip any any
+ip access-list extended PAT-TRANSLATE
+ permit ip 172.16.20.0 0.0.0.255 any
+ permit ip 172.16.30.0 0.0.0.255 any
+ permit ip 172.16.60.0 0.0.0.255
+ deny ip any any
+ip access-list extended to_vlan10
+ permit ip 172.16.10.0 0.0.0.255 172.16.10.0 0.0.0.255
+ permit ip 192.168.10.0 0.0.0.255 172.16.10.0 0.0.0.255
+ permit ip 172.16.10.0 0.0.0.255 192.168.10.0 0.0.0.255
+ permit udp any any eq bootps
+ permit udp any any eq bootpc
+ deny ip any any
+ip access-list extended IN-OUT
+ permit icmp 172.16.10.0 0.0.0.255 192.168.10.0 0.0.0.255
+ permit icmp 192.168.10.0 0.0.0.255 172.16.10.0 0.0.0.255
+ permit icmp host 194.0.0.6 any
+ permit icmp any host 194.0.0.6
+ permit esp host 194.0.0.6 host 194.0.0.14
+ permit esp host 194.0.0.14 host 194.0.0.6
+ permit udp host 194.0.0.6 host 194.0.0.14 eq isakmp
+ permit udp host 194.0.0.14 host 194.0.0.6 eq isakmp
+ permit udp host 194.0.0.6 host 194.0.0.14 eq 4500
+ permit udp host 194.0.0.14 host 194.0.0.6 eq 4500
+ permit tcp host 194.0.0.6 host 194.0.0.14 eq 10000
+ permit tcp host 194.0.0.14 host 194.0.0.6 eq 10000
+ permit tcp host 194.0.0.6 any eq smtp
+ permit tcp host 194.0.0.6 any eq pop3
+ permit tcp host 194.0.0.6 any eq domain
+ permit udp host 194.0.0.6 any eq domain
+ permit tcp host 194.0.0.6 any eq www
+ permit tcp any host 194.0.0.6 established
+ permit udp any host 194.0.0.6 gt 1024
+ deny ip any any
+!
+no cdp run
+!
+banner motd user access verification
+!
+!
+!
+!
+!
+line con 0
+ password con
+ login
+!
+line aux 0
+!
+line vty 0 4
+ password vty
+ login local
+ transport input ssh
+line vty 5 15
+ password vty
+ login local
+ transport input ssh
+!
+!
+!
+end
+

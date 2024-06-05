@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+      <title>kohnlehome.de | Netzwerktechnik</title>
+      <meta charset="utf-8">
+      <meta name="author" content="Franz Kohnle">
+      <meta name="description" content="Netzwerktechnik">
+      <meta name="keywords" content="Netzwerktechnik: OSI-Modell, Konfiguration von Cisco-Geräten">
+      <meta name="robots" content="index, follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="../khnlhm.css">
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+</head>
+
+<body>
+      <header>
+            <h1><a href="../" title="Zur Startseite">kohnlehome.de</a></h1>
+      </header>
+
+      <nav>
+            <h2>Navigation</h2>
+            <ul>
+                  <li>
+                        <ul>
+                              <li><a href="../">Startseite</a></li>
+                        </ul>
+                  </li>
+                  <li>
+                        <span>Softwareentwicklung</span>
+                        <ul>
+                              <li><a href="../tinf/">Technische Informatik</a></li>
+                              <li><a href="../algorithmen/">Algorithmen</a></li>
+                              <li><a href="../softwaretechnik/">Softwaretechnik</a></li>
+                              <li><a href="../c/">C&nbsp;/&nbsp;C++</a></li>
+                              <li><a href="../csharp/">C#</a></li>
+                              <li><a href="../java/">Java</a></li>
+                              <li><a href="../python/">Python</a></li>
+                              <li><a href="../go/">Go</a></li>
+                              <li><a href="../html/">HTML/CSS</a></li>
+                              <li><a href="../js/">JavaScript</a></li>
+
+                              <li><a href="../php/">PHP</a></li>
+                              <li><a href="../datenbanken/">Datenbanken</a></li>
+                        </ul>
+                  </li>
+
+                  <li>
+                        <span>Betriebssysteme</span>
+                        <ul>
+                              <li><a href="../linux/">Linux</a></li>
+                              <li><a href="../windows/">Windows</a></li>
+                        </ul>
+                  </li>
+                  <li>
+                        <span>Netzwerktechnik</span>
+                        <ul>
+                              <li><span>Allgemein</span></li>
+                              <li><a href="../cisco/">Cisco</a></li>
+                        </ul>
+                  </li>
+                  <li>
+                        <span>GBS Schulen München</span>
+                        <ul>
+                              <li><a href="../gbs/">GBS</a></li>
+                              <li><a href="../aktuell/">Aktuelle Klassen</a></li>
+                              <li><a href="../ehemalige/">Ehemalige</a></li>
+                        </ul>
+                  </li>
+            </ul>
+            <hr>
+      </nav>
+
+      <main>
+            <h2>Netzwerktechnik</h2>
+            <div class="Box">
+                  <!-- Anfang linke Spalte -->
+                  <h3>Allgemein</h3>
+                  <h4>Verschiedene Themen</h4>
+                  <ul>
+                        <li>Datenkommunikation <a href="datenkommunikation.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="datenkommunikation.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>Netzwerke <a href="Netzwerke.ppt"><img class="icon" src="../ppt.png"
+                                          title="Download als .ppt-Datei" alt="ppt"></a> <a href="Netzwerke.odp"><img
+                                          class="icon" src="../odp.png" title="Download als .odp-Datei" alt="odp"></a>
+                              <a href="Netzwerke.swf"><img class="icon" src="../swf.png" title="Download als .swf-Datei"
+                                          alt="swf"></a> <a href="Netzwerke.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a>
+                        </li>
+                        <li>Cloud Computing <a href="cloud.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="cloud.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                        <li>SDN (Software-Defined Networking) <a href="sdn.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="sdn.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                  </ul>
+                  <h4>Datenmengen + Datenraten</h4>
+                  <ul>
+                        <li>Datenmengen <a href="Datenmengen.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Datenmengen.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                        <li>Rechenbeispiel Daten&uuml;bertragungsraten <a href="Datenuebertragungsrate.pdf"><img
+                                          class="icon" src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a>
+                              <a href="Datenuebertragungsrate.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                        <li>Übung: Datenübertragungsraten <a href="uebung-datenmengen.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="uebung-datenmengen.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                  </ul>
+                  <h4>Schichtenmodell + Protokolle</h4>
+                  <ul>
+                        <li>Schichtenmodell <a href="Schichtenmodell.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="Schichtenmodell.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                        <li>OSIModell <a href="OSIModell.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="OSIModell.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                        <li>TCPIP <a href="tcpip.ppt"><img class="icon" src="../ppt.png" title="Download als .ppt-Datei"
+                                          alt="ppt"></a> <a href="tcpip.odp"><img class="icon" src="../odp.png"
+                                          title="Download als .odp-Datei" alt="odp"></a> <a href="tcpip.swf"><img
+                                          class="icon" src="../swf.png" title="Download als .swf-Datei" alt="swf"></a>
+                        </li>
+                        <li>Protokolle <a href="protokolle.png"><img class="icon" src="../png.png"
+                                          title="Download als .png-Datei" alt="png"></a> <a href="protokolle.dia"><img
+                                          class="icon" src="../dia.png" title="Download als .dia-Datei" alt="dia"></a>
+                        </li>
+                        <li>Protokolle v6 <a href="protokolle-v6.png"><img class="icon" src="../png.png"
+                                          title="Download als .png-Datei" alt="png"></a> <a
+                                    href="protokolle-v6.dia"><img class="icon" src="../dia.png"
+                                          title="Download als .dia-Datei" alt="dia"></a></li>
+                        <li>Protokolle v6 secure <a href="protokolle-v6-s.png"><img class="icon" src="../png.png"
+                                          title="Download als .png-Datei" alt="png"></a> <a
+                                    href="protokolle-v6-s.dia"><img class="icon" src="../dia.png"
+                                          title="Download als .dia-Datei" alt="dia"></a></li>
+                  </ul>
+
+
+                  <h3>Layer 5 / 6 / 7</h3>
+                  <h4>Allgemein</h4>
+                  <ul>
+                        <li>Application Layer Protocols <a href="ApplicationLayerProtocols.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="ApplicationLayerProtocols.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                  </ul>
+                  <h4>DHCP</h4>
+                  <ul>
+                        <li>DHCP <a href="dhcp.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a>
+                              <a href="dhcp.tex"><img class="icon" src="../tex.png" title="Download als .tex-Datei"
+                                          alt="tex"></a>
+                        </li>
+                        <li>DHCPv6 <a href="dhcpv6.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a>
+                              <a href="dhcpv6.tex"><img class="icon" src="../tex.png" title="Download als .tex-Datei"
+                                          alt="tex"></a>
+                        </li>
+                  </ul>
+                  <h4>DNS</h4>
+                  <ul>
+                        <li>DNS <a href="DNS.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="DNS.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                        <li>DNS Resource Record Types <a href="dns-rr.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="dns-rr.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                        <li>Sniffer: dns <a href="Sniffer_dns.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Sniffer_dns.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                  </ul>
+                  <h4>HTTP</h4>
+                  <ul>
+                        <li>http <a href="http.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a>
+                              <a href="http.tex"><img class="icon" src="../tex.png" title="Download als .tex-Datei"
+                                          alt="tex"></a>
+                        </li>
+                        <li>http/https über Proxy <a href="http-https-proxy.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="http-https-proxy.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>Basic HTTP-Authentication <a href="http-basic-authentication.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="http-basic-authentication.pdf"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>curl <a href="curl.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="curl.pdf"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>Sniffer: http <a href="Sniffer_http.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Sniffer_http.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                  </ul>
+                  <h4>E-Mail</h4>
+                  <ul>
+                        <li>E-Mail <a href="e-mail.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="e-mail.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                  </ul>
+
+                  <h4>Management</h4>
+                  <ul>
+                        <li>SNMP <a href="snmp.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="snmp.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                        <li>Syslog <a href="syslog.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="syslog.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                  </ul>
+
+                  <h3>Layer 4</h3>
+                  <ul>
+                        <li>TCP, UDP <a href="tcp-udp.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="tcp-udp.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                        <li>Sniffer: 3-way-handshake <a href="Sniffer_tcp_3way_handshake.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="Sniffer_tcp_3way_handshake.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                        <li><a href="http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml">IANA:
+                                    Port numbers</a></li>
+                  </ul>
+
+            </div><!-- Ende linke Spalte -->
+
+            <div class="Box">
+                  <!-- Anfang rechte Spalte -->
+                  <h3>Layer 3</h3>
+
+                  <h4>IPv4</h4>
+                  <ul>
+                        <li><a href="IPAdressen.pdf">IPAdressen.pdf</a></li>
+                        <li><a href="https://datatracker.ietf.org/doc/html/rfc1918">RFC 1918: Private IP-Adressen</a>
+                        </li>
+                        <li>Übung: IP-Adressen <a href="uebung-ip-adressen.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="uebung-ip-adressen.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>Subnetmasken <a href="Subnetmasken.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Subnetmasken.ods"><img
+                                          class="icon" src="../ods.png" title="Download als .ods-Datei" alt="ods"></a>
+                        </li>
+                        <li>Subnetting <a href="subnetting.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="subnetting.ods"><img
+                                          class="icon" src="../ods.png" title="Download als .ods-Datei" alt="ods"></a>
+                        </li>
+                        <li>Sniffer: ping <a href="Sniffer_ping.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Sniffer_ping.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                  </ul>
+
+                  <h4>IPv6</h4>
+                  <ul>
+                        <li>IPv6 <a href="ipv6.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a>
+                              <a href="ipv6.tex"><img class="icon" src="../tex.png" title="Download als .tex-Datei"
+                                          alt="tex"></a>
+                        </li>
+                  </ul>
+
+                  <h4>Routing</h4>
+                  <ul>
+                        <li>Routingprotokolle <a href="Routingprotokolle.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="Routingprotokolle.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                        <li>Metrik <a href="Metrik.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Metrik.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                        <li>Klassifizierung von Routen <a href="Routenklassifizierung.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="Routenklassifizierung.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                        <li>EIGRP <a href="eigrp.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="eigrp.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>Split Horizon <a href="SplitHorizon.ppt"><img class="icon" src="../ppt.png"
+                                          title="Download als .ppt-Datei" alt="ppt"></a> <a href="SplitHorizon.odp"><img
+                                          class="icon" src="../odp.png" title="Download als .odp-Datei" alt="odp"></a>
+                              <a href="SplitHorizon.swf"><img class="icon" src="../swf.png"
+                                          title="Download als .swf-Datei" alt="swf"></a></li>
+                        <li>OSPF <a href="ospf.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a>
+                              <a href="ospf.tex"><img class="icon" src="../tex.png" title="Download als .tex-Datei"
+                                          alt="tex"></a>
+                        </li>
+                        <li>Multiarea-OSPF <a href="multiarea-ospf.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="multiarea-ospf.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>Übung: Dijkstra-Algorithmus <a href="uebung-dijkstra.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="uebung-dijkstra.odt"><img class="icon" src="../odt.png"
+                                          title="Download als .odt-Datei" alt="odt"></a></li>
+                        <li>BGP <a href="bgp.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="bgp.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                  </ul>
+
+                  <h4>NAT</h4>
+                  <ul>
+                        <li>Masquerading <a href="Masquerading.ppt"><img class="icon" src="../ppt.png"
+                                          title="Download als .ppt-Datei" alt="ppt"></a> <a href="Masquerading.odp"><img
+                                          class="icon" src="../odp.png" title="Download als .odp-Datei" alt="odp"></a>
+                              <a href="Masquerading.swf"><img class="icon" src="../swf.png"
+                                          title="Download als .swf-Datei" alt="swf"></a></li>
+                        <li>PortForwarding <a href="PortForwarding.ppt"><img class="icon" src="../ppt.png"
+                                          title="Download als .ppt-Datei" alt="ppt"></a> <a
+                                    href="PortForwarding.odp"><img class="icon" src="../odp.png"
+                                          title="Download als .odp-Datei" alt="odp"></a> <a
+                                    href="PortForwarding.swf"><img class="icon" src="../swf.png"
+                                          title="Download als .swf-Datei" alt="swf"></a></li>
+                  </ul>
+
+                  <h4>IPsec</h4>
+                  <ul>
+                        <li>IPsec <a href="ipsec.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="ipsec.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                  </ul>
+
+                  <h3>Layer 1 / 2</h3>
+                  <h4>Verschiedenes</h4>
+                  <ul>
+                        <li><a href="LANTechnologien.pdf">LANTechnologien.pdf</a></li>
+
+                        <li>Sniffer: arp <a href="Sniffer_arp.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Sniffer_arp.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                        <li>Frame Forwarding (Switching Modes) <a href="frame-forwarding.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="frame-forwarding.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>STP (Spanning-Tree Protocol) <a href="spanning-tree-protocol.pdf"><img class="icon"
+                                          src="../pdf.png" title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="spanning-tree-protocol.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                        <li>LAN Security <a href="lan-security.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="lan-security.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                  </ul>
+                  <h4>VLANs</h4>
+                  <ul>
+                        <li>VTP (VLAN-Trunking Protocol) <a href="vtp.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="vtp.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                        <li>DTP (Dynamic Trunking Protocol) <a href="dtp.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="dtp.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="odt"></a>
+                        </li>
+                        <li>VLAN: Switch <a href="vlan-switch.drawio"><img class="icon" src="../drawio.png"
+                                          title="Download als .drawio-Datei" alt="drawio"></a> <a
+                                    href="vlan-switch.svg"><img class="icon" src="../svg.png"
+                                          title="Download als .svg-Datei" alt="svg"></a> <a href="vlan-switch.png"><img
+                                          class="icon" src="../png.png" title="Download als .png-Datei" alt="png"></a>
+                        </li>
+                        <li>VLAN: Switch-Router <a href="vlan-switch-router.drawio"><img class="icon"
+                                          src="../drawio.png" title="Download als .drawio-Datei" alt="drawio"></a> <a
+                                    href="vlan-switch-router.svg"><img class="icon" src="../svg.png"
+                                          title="Download als .svg-Datei" alt="svg"></a> <a
+                                    href="vlan-switch-router.png"><img class="icon" src="../png.png"
+                                          title="Download als .png-Datei" alt="png"></a>
+                        </li>
+                        <li>VLAN: Switch-Switch-Router <a href="vlan-2switch-router.drawio"><img class="icon"
+                                          src="../drawio.png" title="Download als .drawio-Datei" alt="drawio"></a> <a
+                                    href="vlan-2switch-router.svg"><img class="icon" src="../svg.png"
+                                          title="Download als .svg-Datei" alt="svg"></a> <a
+                                    href="vlan-2switch-router.png"><img class="icon" src="../png.png"
+                                          title="Download als .png-Datei" alt="png"></a>
+                        </li>
+                        <li>VLAN: Switch-Trunk-Router <a href="vlan-switch-trunk-router.drawio"><img class="icon"
+                                          src="../drawio.png" title="Download als .drawio-Datei" alt="drawio"></a> <a
+                                    href="vlan-switch-trunk-router.svg"><img class="icon" src="../svg.png"
+                                          title="Download als .svg-Datei" alt="svg"></a> <a
+                                    href="vlan-switch-trunk-router.png"><img class="icon" src="../png.png"
+                                          title="Download als .png-Datei" alt="png"></a>
+                        </li>
+                  </ul>
+                  <h4>WLAN</h4>
+                  <ul>
+                        <li>WLAN <a href="wlan.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a>
+                              <a href="wlan.tex"><img class="icon" src="../tex.png" title="Download als .tex-Datei"
+                                          alt="tex"></a>
+                        </li>
+                        <li>WLAN-Topologien <a href="wlan-topologien.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a
+                                    href="wlan-topologien.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                  </ul>
+
+                  <h4>WAN</h4>
+                  <ul>
+                        <li>PPPoE <a href="pppoe.pdf"><img class="icon" src="../pdf.png" title="Download als .pdf-Datei"
+                                          alt="pdf"></a> <a href="pppoe.tex"><img class="icon" src="../tex.png"
+                                          title="Download als .tex-Datei" alt="tex"></a></li>
+                  </ul>
+
+                  <h4>OSI-Layer 1</h4>
+                  <ul>
+                        <li>OSI-Layer 1: Übersicht <a href="osi-layer-1.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="osi-layer-1.tex"><img
+                                          class="icon" src="../tex.png" title="Download als .tex-Datei" alt="tex"></a>
+                        </li>
+                        <li>D&auml;mpfung und Nebensprechen <a href="Daempfung.pdf"><img class="icon" src="../pdf.png"
+                                          title="Download als .pdf-Datei" alt="pdf"></a> <a href="Daempfung.odt"><img
+                                          class="icon" src="../odt.png" title="Download als .odt-Datei" alt="odt"></a>
+                        </li>
+                  </ul>
+
+                  <h3>Externe Links</h3>
+                  <h4>Testseiten für HTTP und REST</h4>
+                  <ul>
+                        <li>Simple HTTP Request &amp; Response Service: <a
+                                    href="http://eu.httpbin.org/">eu.httpbin.org</a></li>
+                        <li>Shop API Showcase: <a href="https://api.predic8.de/shop/v2/">api.predic8.de/shop/</a></li>
+                  </ul>
+            </div><!-- Ende rechte Spalte -->
+      </main>
+
+      <footer>
+            <hr>
+            <a href="../impressum/">Impressum + Datenschutz</a>
+      </footer>
+</body>
+
+</html>
