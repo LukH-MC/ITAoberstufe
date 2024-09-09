@@ -1,0 +1,33 @@
+1. True
+
+2. True
+
+3. 1. last_name (,) sal
+   2. sal -> salary
+   3. sal x 12 -> sal * 12
+   4. ANNUAL SALARY -> "ANNUAL SALARY"
+   
+4.
+DESC departments;
+
+5.
+SELECT employee_id, last_name, job_id, hire_date startdate
+FROM employees;
+
+6. 👍
+
+7.
+SELECT DISTINCT job_id
+FROM employees;
+
+8.
+SELECT employee_id "Emp #", last_name "Employee", job_id "Job", hire_date "Hire Date"
+FROM employees;
+
+9.
+SELECT last_name || ', ' || job_id "Employee and Title"
+FROM employees;
+
+10.
+SELECT employee_id || ',' || first_name || ',' || last_name || ',' || email || ',' || phone_number || ',' || hire_date || ',' || job_id || ',' || salary || ',' || commission_pct || ',' || manager_id || ',' || department_id the_output
+FROM employees;
