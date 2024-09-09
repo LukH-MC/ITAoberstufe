@@ -1,6 +1,7 @@
-1. True
+1. 👎
+   "Sal" in Anführungszeichen für Kapitalisierung
 
-2. True
+2. 👍
 
 3. 1. last_name (,) sal
    2. sal -> salary
