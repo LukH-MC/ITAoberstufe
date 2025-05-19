@@ -1,0 +1,60 @@
+1.
+SELECT l.location_id, l.street_address, l.city, l.state_province, c.country_name
+FROM locations l
+INNER JOIN countries c
+ON l.country_id = c.country_id
+
+2.
+SELECT e.last_name, e.department_id, d.department_name
+FROM employees e
+INNER JOIN departments d
+ON e.department_id = d.department_id
+
+3.
+SELECT e.last_name, e.job_id, e.department_id, d.department_name
+FROM employees e
+INNER JOIN departments d
+ON e.department_id = d.department_id
+INNER JOIN locations l
+ON d.location_id = l.location_id
+WHERE l.city = 'Toronto'
+
+4.
+SELECT e.last_name AS employee, e.employee_id AS emp#, m.last_name AS manager, m.employee_id AS mgr#
+FROM employees e
+INNER JOIN employees m
+ON e.manager_id = m.employee_id
+
+5.
+SELECT e.last_name AS employee, e.employee_id AS emp#, m.last_name AS manager, m.employee_id AS mgr#
+FROM employees e
+LEFT JOIN employees m
+ON e.manager_id = m.employee_id
+
+6.
+SELECT e.department_id AS department, e.last_name AS employee, c.last_name AS colleague
+FROM employees c
+INNER JOIN employees e
+ON e.department_id = c.department_id
+WHERE e.last_name <> c.last_name
+ORDER BY e.department_id ASC
+
+7.
+SELECT e.last_name, e.job_id, d.department_id, e.salary, j.grade_level
+FROM employees e
+INNER JOIN departments d
+ON e.department_id = d.department_id
+INNER JOIN job_grades j
+ON e.salary BETWEEN j.lowest_sal AND j.highest_sal
+
+8.
+SELECT last_name, hire_date
+FROM employees
+WHERE hire_date > (SELECT hire_date FROM employees WHERE last_name = 'Davies')
+
+9.
+SELECT e.last_name, e.hire_date, m.last_name, m.hire_date
+FROM employees e
+INNER JOIN employees m
+ON e.manager_id = m.employee_id
+WHERE e.hire_date < m.hire_date
